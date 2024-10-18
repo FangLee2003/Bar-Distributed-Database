@@ -180,9 +180,9 @@ namespace QLTVT.SubForm
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(145, 270);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(161, 41);
+            this.button1.Size = new System.Drawing.Size(161, 45);
             this.button1.TabIndex = 2;
-            this.button1.Text = "CHỌN";
+            this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -194,9 +194,9 @@ namespace QLTVT.SubForm
             this.button2.ForeColor = System.Drawing.Color.DimGray;
             this.button2.Location = new System.Drawing.Point(457, 270);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(161, 41);
+            this.button2.Size = new System.Drawing.Size(161, 45);
             this.button2.TabIndex = 3;
-            this.button2.Text = "THOÁT";
+            this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 

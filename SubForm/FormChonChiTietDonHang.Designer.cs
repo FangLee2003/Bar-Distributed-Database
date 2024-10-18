@@ -182,30 +182,30 @@ namespace QLTVT.SubForm
             // 
             // btnCHON
             // 
-            this.btnCHON.BackColor = System.Drawing.Color.White;
+            this.btnCHON.BackColor = System.Drawing.Color.DarkRed;
             this.btnCHON.FlatAppearance.BorderColor = System.Drawing.Color.DarkRed;
             this.btnCHON.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCHON.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCHON.ForeColor = System.Drawing.Color.DarkRed;
-            this.btnCHON.Location = new System.Drawing.Point(148, 307);
+            this.btnCHON.ForeColor = System.Drawing.Color.White;
+            this.btnCHON.Location = new System.Drawing.Point(148, 302);
             this.btnCHON.Name = "btnCHON";
-            this.btnCHON.Size = new System.Drawing.Size(184, 43);
+            this.btnCHON.Size = new System.Drawing.Size(184, 45);
             this.btnCHON.TabIndex = 2;
-            this.btnCHON.Text = "CHỌN";
+            this.btnCHON.Text = "Confirm";
             this.btnCHON.UseVisualStyleBackColor = false;
             this.btnCHON.Click += new System.EventHandler(this.btnCHON_Click);
             // 
             // btnTHOAT
             // 
-            this.btnTHOAT.BackColor = System.Drawing.Color.DarkRed;
+            this.btnTHOAT.BackColor = System.Drawing.Color.Transparent;
             this.btnTHOAT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTHOAT.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTHOAT.ForeColor = System.Drawing.Color.White;
-            this.btnTHOAT.Location = new System.Drawing.Point(447, 307);
+            this.btnTHOAT.ForeColor = System.Drawing.Color.DimGray;
+            this.btnTHOAT.Location = new System.Drawing.Point(447, 302);
             this.btnTHOAT.Name = "btnTHOAT";
-            this.btnTHOAT.Size = new System.Drawing.Size(184, 43);
+            this.btnTHOAT.Size = new System.Drawing.Size(184, 45);
             this.btnTHOAT.TabIndex = 3;
-            this.btnTHOAT.Text = "THOÁT";
+            this.btnTHOAT.Text = "Cancel";
             this.btnTHOAT.UseVisualStyleBackColor = false;
             this.btnTHOAT.Click += new System.EventHandler(this.btnTHOAT_Click);
             // 

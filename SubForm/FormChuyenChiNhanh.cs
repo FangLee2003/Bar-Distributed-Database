@@ -87,6 +87,9 @@ namespace QLTVT.SubForm
 
         }
 
-        
+        private void btnTHOAT_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

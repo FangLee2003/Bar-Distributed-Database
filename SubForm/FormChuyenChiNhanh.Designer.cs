@@ -39,6 +39,7 @@ namespace QLTVT.SubForm
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 16F, System.Drawing.FontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Location = new System.Drawing.Point(100, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(300, 33);
@@ -49,42 +50,46 @@ namespace QLTVT.SubForm
             // cmbCHINHANH
             // 
             this.cmbCHINHANH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCHINHANH.Font = new System.Drawing.Font("Tahoma", 12F);
             this.cmbCHINHANH.FormattingEnabled = true;
-            this.cmbCHINHANH.Location = new System.Drawing.Point(106, 109);
+            this.cmbCHINHANH.Location = new System.Drawing.Point(100, 102);
             this.cmbCHINHANH.Name = "cmbCHINHANH";
-            this.cmbCHINHANH.Size = new System.Drawing.Size(294, 24);
+            this.cmbCHINHANH.Size = new System.Drawing.Size(300, 32);
             this.cmbCHINHANH.TabIndex = 4;
             // 
             // btnXACNHAN
             // 
-            this.btnXACNHAN.BackColor = System.Drawing.Color.Blue;
-            this.btnXACNHAN.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
+            this.btnXACNHAN.BackColor = System.Drawing.Color.DarkRed;
+            this.btnXACNHAN.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnXACNHAN.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.btnXACNHAN.ForeColor = System.Drawing.Color.White;
-            this.btnXACNHAN.Location = new System.Drawing.Point(106, 190);
+            this.btnXACNHAN.Location = new System.Drawing.Point(100, 174);
             this.btnXACNHAN.Name = "btnXACNHAN";
-            this.btnXACNHAN.Size = new System.Drawing.Size(136, 35);
+            this.btnXACNHAN.Size = new System.Drawing.Size(120, 45);
             this.btnXACNHAN.TabIndex = 5;
-            this.btnXACNHAN.Text = "XÁC NHẬN";
+            this.btnXACNHAN.Text = "Confirm";
             this.btnXACNHAN.UseVisualStyleBackColor = false;
             this.btnXACNHAN.Click += new System.EventHandler(this.btnXACNHAN_Click);
             // 
             // btnTHOAT
             // 
-            this.btnTHOAT.BackColor = System.Drawing.Color.Red;
-            this.btnTHOAT.Font = new System.Drawing.Font("Tahoma", 10F, System.Drawing.FontStyle.Bold);
-            this.btnTHOAT.ForeColor = System.Drawing.Color.White;
-            this.btnTHOAT.Location = new System.Drawing.Point(264, 190);
+            this.btnTHOAT.BackColor = System.Drawing.Color.Transparent;
+            this.btnTHOAT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnTHOAT.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
+            this.btnTHOAT.ForeColor = System.Drawing.Color.DimGray;
+            this.btnTHOAT.Location = new System.Drawing.Point(280, 174);
             this.btnTHOAT.Name = "btnTHOAT";
-            this.btnTHOAT.Size = new System.Drawing.Size(136, 35);
+            this.btnTHOAT.Size = new System.Drawing.Size(120, 45);
             this.btnTHOAT.TabIndex = 6;
-            this.btnTHOAT.Text = "THOÁT";
+            this.btnTHOAT.Text = "Cancel";
             this.btnTHOAT.UseVisualStyleBackColor = false;
+            this.btnTHOAT.Click += new System.EventHandler(this.btnTHOAT_Click);
             // 
             // FormChuyenChiNhanh
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(502, 285);
+            this.ClientSize = new System.Drawing.Size(502, 271);
             this.Controls.Add(this.btnTHOAT);
             this.Controls.Add(this.btnXACNHAN);
             this.Controls.Add(this.cmbCHINHANH);
