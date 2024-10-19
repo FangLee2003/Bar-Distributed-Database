@@ -45,7 +45,7 @@ namespace QLTVT.ReportForm
             int toYear = dteToiNgay.DateTime.Year;
             int toMonth = dteToiNgay.DateTime.Month;
             */
-            ReportHoatDongNhanVien report = new ReportHoatDongNhanVien(maNhanVien, loaiPhieu, fromDate, toDate);
+            ReportNhanVienChiTiet report = new ReportNhanVienChiTiet(maNhanVien, loaiPhieu, fromDate, toDate);
             /*GAN TEN CHI NHANH CHO BAO CAO*/
             report.txtLoaiPhieu.Text = cmbLoaiPhieu.SelectedItem.ToString().ToUpper();
             report.txtMaNhanVien.Text = Program.maNhanVienDuocChon;
@@ -86,7 +86,7 @@ namespace QLTVT.ReportForm
                 int toYear = dteToiNgay.DateTime.Year;
                 int toMonth = dteToiNgay.DateTime.Month;
                 */
-                ReportHoatDongNhanVien report = new ReportHoatDongNhanVien(maNhanVien, loaiPhieu, fromDate, toDate);
+                ReportNhanVienChiTiet report = new ReportNhanVienChiTiet(maNhanVien, loaiPhieu, fromDate, toDate);
 
                 report.txtLoaiPhieu.Text = cmbLoaiPhieu.SelectedItem.ToString().ToUpper();
                 report.txtMaNhanVien.Text = Program.maNhanVienDuocChon;

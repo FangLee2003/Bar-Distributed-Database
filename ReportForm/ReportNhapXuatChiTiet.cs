@@ -6,13 +6,13 @@ using System.Drawing;
 
 namespace QLTVT.ReportForm
 {
-    public partial class ReportChiTietSoLuongTriGiaHangHoa : DevExpress.XtraReports.UI.XtraReport
+    public partial class ReportNhapXuatChiTiet : DevExpress.XtraReports.UI.XtraReport
     {
-        public ReportChiTietSoLuongTriGiaHangHoa()
+        public ReportNhapXuatChiTiet()
         {
             InitializeComponent();
         }
-        public ReportChiTietSoLuongTriGiaHangHoa(String vaiTro, String loaiPhieu, DateTime fromDate,DateTime toDate)
+        public ReportNhapXuatChiTiet(String vaiTro, String loaiPhieu, DateTime fromDate,DateTime toDate)
         {
             InitializeComponent();
             this.sqlDataSource1.Connection.ConnectionString = Program.connstr;

@@ -71,7 +71,7 @@ namespace QLTVT.ReportForm
 
             
 
-            ReportTongHopNhapXuat report = new ReportTongHopNhapXuat(fromDate, toDate);
+            ReportNhapXuatTongHop report = new ReportNhapXuatTongHop(fromDate, toDate);
             report.txtTuNgay.Text = dteTuNgay.EditValue.ToString();
             report.txtToiNgay.Text = dteToiNgay.EditValue.ToString();
             report.txtChiNhanh.Text = chiNhanh;

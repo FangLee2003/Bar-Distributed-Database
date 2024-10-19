@@ -124,7 +124,7 @@ namespace QLTVT.ReportForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ReportDonHangKhongPhieuNhap report = new ReportDonHangKhongPhieuNhap();
+            ReportNhapXuatKhongPhieu report = new ReportNhapXuatKhongPhieu();
             /*GAN TEN CHI NHANH CHO BAO CAO*/
             report.txtChiNhanh.Text = chiNhanh.ToUpper();
             ReportPrintTool printTool = new ReportPrintTool(report);
@@ -135,7 +135,7 @@ namespace QLTVT.ReportForm
         {
             try
             {
-                ReportDonHangKhongPhieuNhap report = new ReportDonHangKhongPhieuNhap();
+                ReportNhapXuatKhongPhieu report = new ReportNhapXuatKhongPhieu();
                 /*GAN TEN CHI NHANH CHO BAO CAO*/
                 report.txtChiNhanh.Text = chiNhanh.ToUpper();
                 if (File.Exists(@"D:\ReportDonHangKhongPhieuNhap.pdf"))
