@@ -1,7 +1,7 @@
 ﻿
 namespace QLTVT.ReportForm
 {
-    partial class ReportHoatDongNhanVien
+    partial class ReportNhanVienChiTiet
     {
         /// <summary>
         /// Required designer variable.
@@ -35,7 +35,7 @@ namespace QLTVT.ReportForm
             DevExpress.DataAccess.Sql.QueryParameter queryParameter2 = new DevExpress.DataAccess.Sql.QueryParameter();
             DevExpress.DataAccess.Sql.QueryParameter queryParameter3 = new DevExpress.DataAccess.Sql.QueryParameter();
             DevExpress.DataAccess.Sql.QueryParameter queryParameter4 = new DevExpress.DataAccess.Sql.QueryParameter();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportHoatDongNhanVien));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReportNhanVienChiTiet));
             this.sqlDataSource1 = new DevExpress.DataAccess.Sql.SqlDataSource(this.components);
             this.Title = new DevExpress.XtraReports.UI.XRControlStyle();
             this.DetailCaption1 = new DevExpress.XtraReports.UI.XRControlStyle();
@@ -83,9 +83,9 @@ namespace QLTVT.ReportForm
             this.tableCell13 = new DevExpress.XtraReports.UI.XRTableCell();
             this.tableCell14 = new DevExpress.XtraReports.UI.XRTableCell();
             this.GroupFooter1 = new DevExpress.XtraReports.UI.GroupFooterBand();
-            this.calculatedField1 = new DevExpress.XtraReports.UI.CalculatedField();
-            this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
             this.xrLabel6 = new DevExpress.XtraReports.UI.XRLabel();
+            this.xrLabel5 = new DevExpress.XtraReports.UI.XRLabel();
+            this.calculatedField1 = new DevExpress.XtraReports.UI.CalculatedField();
             ((System.ComponentModel.ISupportInitialize)(this.table1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this)).BeginInit();
@@ -106,10 +106,11 @@ namespace QLTVT.ReportForm
             queryParameter4.Name = "@DATETO";
             queryParameter4.Type = typeof(System.DateTime);
             queryParameter4.ValueInfo = "1753-01-01";
-            storedProcQuery1.Parameters.Add(queryParameter1);
-            storedProcQuery1.Parameters.Add(queryParameter2);
-            storedProcQuery1.Parameters.Add(queryParameter3);
-            storedProcQuery1.Parameters.Add(queryParameter4);
+            storedProcQuery1.Parameters.AddRange(new DevExpress.DataAccess.Sql.QueryParameter[] {
+            queryParameter1,
+            queryParameter2,
+            queryParameter3,
+            queryParameter4});
             storedProcQuery1.StoredProcName = "sp_HoatDongNhanVien";
             this.sqlDataSource1.Queries.AddRange(new DevExpress.DataAccess.Sql.SqlQuery[] {
             storedProcQuery1});
@@ -180,19 +181,22 @@ namespace QLTVT.ReportForm
             // 
             // pageInfo1
             // 
-            this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(5F, 5F);
+            this.pageInfo1.LocationFloat = new DevExpress.Utils.PointFloat(0F, 0F);
             this.pageInfo1.Name = "pageInfo1";
             this.pageInfo1.PageInfo = DevExpress.XtraPrinting.PageInfo.DateTime;
-            this.pageInfo1.SizeF = new System.Drawing.SizeF(315F, 23F);
+            this.pageInfo1.SizeF = new System.Drawing.SizeF(322.5F, 23F);
             this.pageInfo1.StyleName = "PageInfo";
+            this.pageInfo1.StylePriority.UseTextAlignment = false;
+            this.pageInfo1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // pageInfo2
             // 
-            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(335F, 0F);
+            this.pageInfo2.LocationFloat = new DevExpress.Utils.PointFloat(322.5F, 0F);
             this.pageInfo2.Name = "pageInfo2";
-            this.pageInfo2.SizeF = new System.Drawing.SizeF(315F, 23F);
+            this.pageInfo2.SizeF = new System.Drawing.SizeF(327.5002F, 23F);
             this.pageInfo2.StyleName = "PageInfo";
-            this.pageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.TopRight;
+            this.pageInfo2.StylePriority.UseTextAlignment = false;
+            this.pageInfo2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             this.pageInfo2.TextFormatString = "Page {0} of {1}";
             // 
             // ReportHeader
@@ -213,188 +217,199 @@ namespace QLTVT.ReportForm
             this.xrLabel8,
             this.txtTuNgay,
             this.txtToiNgay});
-            this.ReportHeader.HeightF = 262.3719F;
+            this.ReportHeader.HeightF = 300.7052F;
             this.ReportHeader.Name = "ReportHeader";
             // 
             // label1
             // 
-            this.label1.Font = new DevExpress.Drawing.DXFont("Tahoma", 19.8F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(10F, 0F);
+            this.label1.BackColor = System.Drawing.Color.Empty;
+            this.label1.Font = new DevExpress.Drawing.DXFont("Tahoma", 18F, DevExpress.Drawing.DXFontStyle.Bold);
+            this.label1.ForeColor = System.Drawing.Color.DarkRed;
+            this.label1.LocationFloat = new DevExpress.Utils.PointFloat(0.0002543131F, 10F);
             this.label1.Name = "label1";
-            this.label1.SizeF = new System.Drawing.SizeF(640F, 35.02767F);
+            this.label1.SizeF = new System.Drawing.SizeF(649.9997F, 35.02767F);
             this.label1.StyleName = "Title";
+            this.label1.StylePriority.UseBackColor = false;
             this.label1.StylePriority.UseFont = false;
+            this.label1.StylePriority.UseForeColor = false;
             this.label1.StylePriority.UseTextAlignment = false;
-            this.label1.Text = "HOẠT ĐỘNG NHÂN VIÊN";
+            this.label1.Text = "Detail of Staff Activities";
             this.label1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // txtLoaiPhieu
             // 
-            this.txtLoaiPhieu.LocationFloat = new DevExpress.Utils.PointFloat(357.2549F, 45.02768F);
+            this.txtLoaiPhieu.LocationFloat = new DevExpress.Utils.PointFloat(351.4216F, 76.69434F);
             this.txtLoaiPhieu.Multiline = true;
             this.txtLoaiPhieu.Name = "txtLoaiPhieu";
             this.txtLoaiPhieu.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.txtLoaiPhieu.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.txtLoaiPhieu.StylePriority.UseTextAlignment = false;
             this.txtLoaiPhieu.Text = "...";
-            this.txtLoaiPhieu.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.txtLoaiPhieu.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel4
             // 
-            this.xrLabel4.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 45.02768F);
+            this.xrLabel4.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.xrLabel4.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 76.69434F);
             this.xrLabel4.Multiline = true;
             this.xrLabel4.Name = "xrLabel4";
             this.xrLabel4.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel4.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.xrLabel4.StylePriority.UseFont = false;
             this.xrLabel4.StylePriority.UseTextAlignment = false;
-            this.xrLabel4.Text = "Loại Phiếu";
-            this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrLabel4.Text = "Receipt Type";
+            this.xrLabel4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // txtDiaChi
             // 
-            this.txtDiaChi.LocationFloat = new DevExpress.Utils.PointFloat(510.8334F, 152.8333F);
+            this.txtDiaChi.LocationFloat = new DevExpress.Utils.PointFloat(499.9999F, 177F);
             this.txtDiaChi.Multiline = true;
             this.txtDiaChi.Name = "txtDiaChi";
             this.txtDiaChi.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.txtDiaChi.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.txtDiaChi.StylePriority.UseTextAlignment = false;
             this.txtDiaChi.Text = "...";
-            this.txtDiaChi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.txtDiaChi.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrlabel12
             // 
-            this.xrlabel12.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrlabel12.LocationFloat = new DevExpress.Utils.PointFloat(357.2549F, 152.8333F);
+            this.xrlabel12.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.xrlabel12.LocationFloat = new DevExpress.Utils.PointFloat(351.4215F, 177F);
             this.xrlabel12.Multiline = true;
             this.xrlabel12.Name = "xrlabel12";
             this.xrlabel12.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrlabel12.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.xrlabel12.StylePriority.UseFont = false;
             this.xrlabel12.StylePriority.UseTextAlignment = false;
-            this.xrlabel12.Text = "Địa Chỉ";
+            this.xrlabel12.Text = "Address";
             this.xrlabel12.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // txtNgaySinh
             // 
-            this.txtNgaySinh.LocationFloat = new DevExpress.Utils.PointFloat(510.8334F, 94.33339F);
+            this.txtNgaySinh.LocationFloat = new DevExpress.Utils.PointFloat(499.9999F, 127.6667F);
             this.txtNgaySinh.Multiline = true;
             this.txtNgaySinh.Name = "txtNgaySinh";
             this.txtNgaySinh.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.txtNgaySinh.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.txtNgaySinh.StylePriority.UseTextAlignment = false;
             this.txtNgaySinh.Text = "...";
-            this.txtNgaySinh.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.txtNgaySinh.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel3
             // 
-            this.xrLabel3.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(357.2549F, 94.33339F);
+            this.xrLabel3.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(351.4216F, 127.6667F);
             this.xrLabel3.Multiline = true;
             this.xrLabel3.Name = "xrLabel3";
             this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel3.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.xrLabel3.StylePriority.UseFont = false;
             this.xrLabel3.StylePriority.UseTextAlignment = false;
-            this.xrLabel3.Text = "Ngày Sinh";
+            this.xrLabel3.Text = "Birth Date";
             this.xrLabel3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // txtHoTen
             // 
-            this.txtHoTen.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 152.8333F);
+            this.txtHoTen.LocationFloat = new DevExpress.Utils.PointFloat(199.1667F, 177F);
             this.txtHoTen.Multiline = true;
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.txtHoTen.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.txtHoTen.StylePriority.UseTextAlignment = false;
             this.txtHoTen.Text = "...";
-            this.txtHoTen.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.txtHoTen.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel2
             // 
-            this.xrLabel2.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(48.3333F, 152.8333F);
+            this.xrLabel2.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(48.33321F, 177F);
             this.xrLabel2.Multiline = true;
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel2.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.xrLabel2.StylePriority.UseFont = false;
             this.xrLabel2.StylePriority.UseTextAlignment = false;
-            this.xrLabel2.Text = "Họ Và Tên";
+            this.xrLabel2.Text = "Full Name";
             this.xrLabel2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // txtMaNhanVien
             // 
-            this.txtMaNhanVien.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 94.33339F);
+            this.txtMaNhanVien.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 127.6667F);
             this.txtMaNhanVien.Multiline = true;
             this.txtMaNhanVien.Name = "txtMaNhanVien";
             this.txtMaNhanVien.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.txtMaNhanVien.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.txtMaNhanVien.StylePriority.UseTextAlignment = false;
             this.txtMaNhanVien.Text = "...";
-            this.txtMaNhanVien.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.txtMaNhanVien.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel1
             // 
-            this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(48.3333F, 94.33339F);
+            this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(48.33331F, 127.6667F);
             this.xrLabel1.Multiline = true;
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
-            this.xrLabel1.SizeF = new System.Drawing.SizeF(116.3834F, 23.00001F);
+            this.xrLabel1.SizeF = new System.Drawing.SizeF(100F, 23.00001F);
             this.xrLabel1.StylePriority.UseFont = false;
             this.xrLabel1.StylePriority.UseTextAlignment = false;
-            this.xrLabel1.Text = "Mã Nhân Viên";
+            this.xrLabel1.Text = "Staff ID";
             this.xrLabel1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel7
             // 
-            this.xrLabel7.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(48.3333F, 207.8334F);
+            this.xrLabel7.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(48.33331F, 227.8334F);
             this.xrLabel7.Multiline = true;
             this.xrLabel7.Name = "xrLabel7";
             this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel7.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.xrLabel7.StylePriority.UseFont = false;
             this.xrLabel7.StylePriority.UseTextAlignment = false;
-            this.xrLabel7.Text = "Từ Ngày";
+            this.xrLabel7.Text = "From";
             this.xrLabel7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // xrLabel8
             // 
-            this.xrLabel8.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(357.2549F, 207.8334F);
+            this.xrLabel8.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
+            new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
+            this.xrLabel8.LocationFloat = new DevExpress.Utils.PointFloat(351.4216F, 227.8334F);
             this.xrLabel8.Multiline = true;
             this.xrLabel8.Name = "xrLabel8";
             this.xrLabel8.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.xrLabel8.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.xrLabel8.StylePriority.UseFont = false;
             this.xrLabel8.StylePriority.UseTextAlignment = false;
-            this.xrLabel8.Text = "Tới Ngày";
+            this.xrLabel8.Text = "To";
             this.xrLabel8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // txtTuNgay
             // 
-            this.txtTuNgay.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 207.8334F);
+            this.txtTuNgay.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 227.8334F);
             this.txtTuNgay.Multiline = true;
             this.txtTuNgay.Name = "txtTuNgay";
             this.txtTuNgay.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.txtTuNgay.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.txtTuNgay.StylePriority.UseTextAlignment = false;
             this.txtTuNgay.Text = "...";
-            this.txtTuNgay.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.txtTuNgay.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // txtToiNgay
             // 
-            this.txtToiNgay.LocationFloat = new DevExpress.Utils.PointFloat(510.8334F, 207.8334F);
+            this.txtToiNgay.LocationFloat = new DevExpress.Utils.PointFloat(500F, 227.8334F);
             this.txtToiNgay.Multiline = true;
             this.txtToiNgay.Name = "txtToiNgay";
             this.txtToiNgay.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
             this.txtToiNgay.SizeF = new System.Drawing.SizeF(100F, 23F);
             this.txtToiNgay.StylePriority.UseTextAlignment = false;
             this.txtToiNgay.Text = "...";
-            this.txtToiNgay.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.txtToiNgay.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             // 
             // GroupHeader1
             // 
@@ -431,70 +446,86 @@ namespace QLTVT.ReportForm
             // 
             // tableCell1
             // 
+            this.tableCell1.BackColor = System.Drawing.Color.DarkRed;
             this.tableCell1.BorderColor = System.Drawing.Color.Black;
             this.tableCell1.Borders = DevExpress.XtraPrinting.BorderSide.Left;
             this.tableCell1.BorderWidth = 1F;
             this.tableCell1.Name = "tableCell1";
             this.tableCell1.StyleName = "DetailCaption1";
+            this.tableCell1.StylePriority.UseBackColor = false;
             this.tableCell1.StylePriority.UseBorderColor = false;
             this.tableCell1.StylePriority.UseBorders = false;
             this.tableCell1.StylePriority.UseBorderWidth = false;
             this.tableCell1.StylePriority.UseTextAlignment = false;
-            this.tableCell1.Text = "THỜI GIAN";
+            this.tableCell1.Text = "Month";
             this.tableCell1.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell1.Weight = 0.14026189842449927D;
+            this.tableCell1.Weight = 0.11538461371715617D;
             // 
             // tableCell2
             // 
+            this.tableCell2.BackColor = System.Drawing.Color.DarkRed;
             this.tableCell2.Name = "tableCell2";
             this.tableCell2.StyleName = "DetailCaption1";
+            this.tableCell2.StylePriority.UseBackColor = false;
             this.tableCell2.StylePriority.UseTextAlignment = false;
-            this.tableCell2.Text = "NGÀY";
+            this.tableCell2.Text = "Date";
             this.tableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell2.Weight = 0.15486933889896828D;
+            this.tableCell2.Weight = 0.15384615490559803D;
             // 
             // tableCell3
             // 
+            this.tableCell3.BackColor = System.Drawing.Color.DarkRed;
             this.tableCell3.Name = "tableCell3";
             this.tableCell3.StyleName = "DetailCaption1";
+            this.tableCell3.StylePriority.UseBackColor = false;
             this.tableCell3.StylePriority.UseTextAlignment = false;
-            this.tableCell3.Text = "MÃ PHIẾU";
+            this.tableCell3.Text = "ID";
             this.tableCell3.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell3.Weight = 0.12222545842208442D;
+            this.tableCell3.Weight = 0.076923080978274883D;
             // 
             // tableCell4
             // 
+            this.tableCell4.BackColor = System.Drawing.Color.DarkRed;
             this.tableCell4.Name = "tableCell4";
             this.tableCell4.StyleName = "DetailCaption1";
-            this.tableCell4.Text = "TÊN VẬT TƯ";
-            this.tableCell4.Weight = 0.15092855675219441D;
+            this.tableCell4.StylePriority.UseBackColor = false;
+            this.tableCell4.StylePriority.UseTextAlignment = false;
+            this.tableCell4.Text = "Wine Name";
+            this.tableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.tableCell4.Weight = 0.1923076881603959D;
             // 
             // tableCell5
             // 
+            this.tableCell5.BackColor = System.Drawing.Color.DarkRed;
             this.tableCell5.Name = "tableCell5";
             this.tableCell5.StyleName = "DetailCaption1";
+            this.tableCell5.StylePriority.UseBackColor = false;
             this.tableCell5.StylePriority.UseTextAlignment = false;
-            this.tableCell5.Text = "KHO HÀNG";
+            this.tableCell5.Text = "Bar Name";
             this.tableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell5.Weight = 0.18295818713973525D;
+            this.tableCell5.Weight = 0.19230769344395102D;
             // 
             // tableCell6
             // 
+            this.tableCell6.BackColor = System.Drawing.Color.DarkRed;
             this.tableCell6.Name = "tableCell6";
             this.tableCell6.StyleName = "DetailCaption1";
+            this.tableCell6.StylePriority.UseBackColor = false;
             this.tableCell6.StylePriority.UseTextAlignment = false;
-            this.tableCell6.Text = "SỐ LƯỢNG";
+            this.tableCell6.Text = "Quantity";
             this.tableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell6.Weight = 0.12685462273105802D;
+            this.tableCell6.Weight = 0.11538461419857775D;
             // 
             // tableCell7
             // 
+            this.tableCell7.BackColor = System.Drawing.Color.DarkRed;
             this.tableCell7.Name = "tableCell7";
             this.tableCell7.StyleName = "DetailCaption1";
+            this.tableCell7.StylePriority.UseBackColor = false;
             this.tableCell7.StylePriority.UseTextAlignment = false;
-            this.tableCell7.Text = "TRỊ GIÁ";
+            this.tableCell7.Text = "Price";
             this.tableCell7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell7.Weight = 0.12190196110652043D;
+            this.tableCell7.Weight = 0.15384617807110632D;
             // 
             // Detail
             // 
@@ -519,7 +550,7 @@ namespace QLTVT.ReportForm
             this.table2.OddStyleName = "DetailData3_Odd";
             this.table2.Rows.AddRange(new DevExpress.XtraReports.UI.XRTableRow[] {
             this.tableRow2});
-            this.table2.SizeF = new System.Drawing.SizeF(650F, 41.92308F);
+            this.table2.SizeF = new System.Drawing.SizeF(650.0001F, 41.92308F);
             this.table2.StylePriority.UseBorderColor = false;
             this.table2.StylePriority.UseBorders = false;
             this.table2.StylePriority.UseBorderWidth = false;
@@ -548,7 +579,7 @@ namespace QLTVT.ReportForm
             this.tableCell8.StylePriority.UseBorders = false;
             this.tableCell8.StylePriority.UseTextAlignment = false;
             this.tableCell8.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell8.Weight = 0.140261898966231D;
+            this.tableCell8.Weight = 0.11538461455088578D;
             // 
             // tableCell9
             // 
@@ -560,7 +591,7 @@ namespace QLTVT.ReportForm
             this.tableCell9.StylePriority.UseTextAlignment = false;
             this.tableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.tableCell9.TextFormatString = "{0:ddd, dd-MM}";
-            this.tableCell9.Weight = 0.15486933835723654D;
+            this.tableCell9.Weight = 0.15384616611340612D;
             // 
             // tableCell10
             // 
@@ -571,7 +602,7 @@ namespace QLTVT.ReportForm
             this.tableCell10.StyleName = "DetailData1";
             this.tableCell10.StylePriority.UseTextAlignment = false;
             this.tableCell10.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.tableCell10.Weight = 0.12222555269737143D;
+            this.tableCell10.Weight = 0.076923020770742173D;
             // 
             // tableCell11
             // 
@@ -581,7 +612,7 @@ namespace QLTVT.ReportForm
             this.tableCell11.StyleName = "DetailData1";
             this.tableCell11.StylePriority.UseTextAlignment = false;
             this.tableCell11.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
-            this.tableCell11.Weight = 0.15092846247690742D;
+            this.tableCell11.Weight = 0.19230763448077681D;
             // 
             // tableCell12
             // 
@@ -589,7 +620,7 @@ namespace QLTVT.ReportForm
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "[TENKHO]")});
             this.tableCell12.Name = "tableCell12";
             this.tableCell12.StyleName = "DetailData1";
-            this.tableCell12.Weight = 0.18295823363146674D;
+            this.tableCell12.Weight = 0.19230771635087157D;
             // 
             // tableCell13
             // 
@@ -600,7 +631,7 @@ namespace QLTVT.ReportForm
             this.tableCell13.StylePriority.UseTextAlignment = false;
             this.tableCell13.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             this.tableCell13.TextFormatString = "{0:#,#}";
-            this.tableCell13.Weight = 0.12685457623932656D;
+            this.tableCell13.Weight = 0.11538460305406742D;
             // 
             // tableCell14
             // 
@@ -611,19 +642,32 @@ namespace QLTVT.ReportForm
             this.tableCell14.StylePriority.UseTextAlignment = false;
             this.tableCell14.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
             this.tableCell14.TextFormatString = "{0:#,#}";
-            this.tableCell14.Weight = 0.12190194936899039D;
+            this.tableCell14.Weight = 0.15384635472289732D;
             // 
             // GroupFooter1
             // 
             this.GroupFooter1.Controls.AddRange(new DevExpress.XtraReports.UI.XRControl[] {
             this.xrLabel6,
             this.xrLabel5});
+            this.GroupFooter1.HeightF = 49.57682F;
             this.GroupFooter1.Name = "GroupFooter1";
             // 
-            // calculatedField1
+            // xrLabel6
             // 
-            this.calculatedField1.DataMember = "sp_HoatDongNhanVien";
-            this.calculatedField1.Name = "calculatedField1";
+            this.xrLabel6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
+            | DevExpress.XtraPrinting.BorderSide.Right) 
+            | DevExpress.XtraPrinting.BorderSide.Bottom)));
+            this.xrLabel6.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
+            this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(400F, 10F);
+            this.xrLabel6.Multiline = true;
+            this.xrLabel6.Name = "xrLabel6";
+            this.xrLabel6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel6.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrLabel6.StylePriority.UseBorders = false;
+            this.xrLabel6.StylePriority.UseFont = false;
+            this.xrLabel6.StylePriority.UseTextAlignment = false;
+            this.xrLabel6.Text = "Total Value";
+            this.xrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             // 
             // xrLabel5
             // 
@@ -632,35 +676,23 @@ namespace QLTVT.ReportForm
             | DevExpress.XtraPrinting.BorderSide.Bottom)));
             this.xrLabel5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Sum( [TRIGIA])")});
-            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(550F, 21.58964F);
+            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(525.8333F, 10F);
             this.xrLabel5.Multiline = true;
             this.xrLabel5.Name = "xrLabel5";
-            this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrLabel5.SizeF = new System.Drawing.SizeF(100F, 23F);
+            this.xrLabel5.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
+            this.xrLabel5.SizeF = new System.Drawing.SizeF(124.1667F, 23F);
             this.xrLabel5.StylePriority.UseBorders = false;
             this.xrLabel5.StylePriority.UseTextAlignment = false;
             this.xrLabel5.Text = "xrLabel5";
             this.xrLabel5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrLabel5.TextFormatString = "{0:#,#}";
             // 
-            // xrLabel6
+            // calculatedField1
             // 
-            this.xrLabel6.Borders = ((DevExpress.XtraPrinting.BorderSide)((((DevExpress.XtraPrinting.BorderSide.Left | DevExpress.XtraPrinting.BorderSide.Top) 
-            | DevExpress.XtraPrinting.BorderSide.Right) 
-            | DevExpress.XtraPrinting.BorderSide.Bottom)));
-            this.xrLabel6.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F, DevExpress.Drawing.DXFontStyle.Bold);
-            this.xrLabel6.LocationFloat = new DevExpress.Utils.PointFloat(415.3846F, 21.58964F);
-            this.xrLabel6.Multiline = true;
-            this.xrLabel6.Name = "xrLabel6";
-            this.xrLabel6.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 96F);
-            this.xrLabel6.SizeF = new System.Drawing.SizeF(100F, 23F);
-            this.xrLabel6.StylePriority.UseBorders = false;
-            this.xrLabel6.StylePriority.UseFont = false;
-            this.xrLabel6.StylePriority.UseTextAlignment = false;
-            this.xrLabel6.Text = "TỔNG TRỊ GIÁ";
-            this.xrLabel6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.calculatedField1.DataMember = "sp_HoatDongNhanVien";
+            this.calculatedField1.Name = "calculatedField1";
             // 
-            // ReportHoatDongNhanVien
+            // ReportNhanVienChiTiet
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.TopMargin,
@@ -676,14 +708,14 @@ namespace QLTVT.ReportForm
             this.DataMember = "sp_HoatDongNhanVien";
             this.DataSource = this.sqlDataSource1;
             this.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F);
-            this.Margins = new DevExpress.Drawing.DXMargins(68, 100, 100, 100);
+            this.Margins = new DevExpress.Drawing.DXMargins(68F, 132F, 100F, 100F);
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.Title,
             this.DetailCaption1,
             this.DetailData1,
             this.DetailData3_Odd,
             this.PageInfo});
-            this.Version = "19.2";
+            this.Version = "24.1";
             ((System.ComponentModel.ISupportInitialize)(this.table1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.table2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this)).EndInit();

@@ -6,9 +6,9 @@ using System.Drawing;
 
 namespace QLTVT.ReportForm
 {
-    public partial class ReportDonHangKhongPhieuNhap : DevExpress.XtraReports.UI.XtraReport
+    public partial class ReportNhapXuatKhongPhieu : DevExpress.XtraReports.UI.XtraReport
     {
-        public ReportDonHangKhongPhieuNhap()
+        public ReportNhapXuatKhongPhieu()
         {
             InitializeComponent();
             this.sqlDataSource1.Connection.ConnectionString = Program.connstr;

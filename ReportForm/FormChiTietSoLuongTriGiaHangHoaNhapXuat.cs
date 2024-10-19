@@ -27,7 +27,7 @@ namespace QLTVT.ReportForm
             
             DateTime fromDate = dteTuNgay.DateTime;
             DateTime toDate = dteToiNgay.DateTime;
-            ReportChiTietSoLuongTriGiaHangHoa report = new ReportChiTietSoLuongTriGiaHangHoa(vaiTro,loaiPhieu,fromDate,toDate);
+            ReportNhapXuatChiTiet report = new ReportNhapXuatChiTiet(vaiTro,loaiPhieu,fromDate,toDate);
             /*GAN TEN CHI NHANH CHO BAO CAO*/
             report.txtLoaiPhieu.Text = cmbLoaiPhieu.SelectedItem.ToString().ToUpper();
             report.txtTuNgay.Text = fromDate.ToString("dd-MM-yyyy");
@@ -49,7 +49,7 @@ namespace QLTVT.ReportForm
 
 
 
-                ReportChiTietSoLuongTriGiaHangHoa report = new ReportChiTietSoLuongTriGiaHangHoa(vaiTro, loaiPhieu, fromDate, toDate);
+                ReportNhapXuatChiTiet report = new ReportNhapXuatChiTiet(vaiTro, loaiPhieu, fromDate, toDate);
 
 
                 /*GAN TEN CHI NHANH CHO BAO CAO*/
