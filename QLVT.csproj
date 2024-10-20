@@ -429,6 +429,75 @@
   <ItemGroup>
     <None Include="Resources\delete.svg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navigation1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navigation2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny5.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems5.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit5.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navigation3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete5.svg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.

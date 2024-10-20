@@ -198,10 +198,10 @@ namespace QLTVT
             this.rdChiNhanh.Checked = true;
             this.rdChiNhanh.Location = new System.Drawing.Point(222, 545);
             this.rdChiNhanh.Name = "rdChiNhanh";
-            this.rdChiNhanh.Size = new System.Drawing.Size(92, 21);
+            this.rdChiNhanh.Size = new System.Drawing.Size(72, 21);
             this.rdChiNhanh.TabIndex = 27;
             this.rdChiNhanh.TabStop = true;
-            this.rdChiNhanh.Text = "Chi Nhánh";
+            this.rdChiNhanh.Text = "Branch";
             this.rdChiNhanh.UseVisualStyleBackColor = true;
             // 
             // rdUser

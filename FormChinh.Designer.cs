@@ -469,14 +469,13 @@ namespace QLTVT
             this.Controls.Add(this.ribbon);
             this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("FormChinh.IconOptions.Image")));
             this.IconOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("FormChinh.IconOptions.LargeImage")));
-            this.IconOptions.SvgImage = global::QLTVT.Properties.Resources.actions_add;
             this.IsMdiContainer = true;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormChinh";
             this.Ribbon = this.ribbon;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.StatusBar = this.ribbonStatusBar;
-            this.Text = "QUẢN LÝ VẬT TƯ";
+            this.Text = "DISTRIBUTED DATABASE WINE CELLAR MANAGEMENT";
             this.Load += new System.EventHandler(this.FormChinh_Load);
             ((System.ComponentModel.ISupportInitialize)(this.ribbon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();

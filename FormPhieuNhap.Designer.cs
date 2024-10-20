@@ -42,7 +42,7 @@ namespace QLTVT
             System.Windows.Forms.Label dONGIALabel1;
             System.Windows.Forms.Label mANVLabel;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPhieuNhap));
-            DevExpress.XtraGrid.GridLevelNode gridLevelNode2 = new DevExpress.XtraGrid.GridLevelNode();
+            DevExpress.XtraGrid.GridLevelNode gridLevelNode1 = new DevExpress.XtraGrid.GridLevelNode();
             this.barManager1 = new DevExpress.XtraBars.BarManager(this.components);
             this.bar2 = new DevExpress.XtraBars.Bar();
             this.btnTHEM = new DevExpress.XtraBars.BarButtonItem();
@@ -634,9 +634,9 @@ namespace QLTVT
             this.gcChiTietPhieuNhap.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(6);
             this.gcChiTietPhieuNhap.Enabled = false;
             this.gcChiTietPhieuNhap.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            gridLevelNode2.RelationName = "Level1";
+            gridLevelNode1.RelationName = "Level1";
             this.gcChiTietPhieuNhap.LevelTree.Nodes.AddRange(new DevExpress.XtraGrid.GridLevelNode[] {
-            gridLevelNode2});
+            gridLevelNode1});
             this.gcChiTietPhieuNhap.Location = new System.Drawing.Point(531, 28);
             this.gcChiTietPhieuNhap.MainView = this.gvCTDDH;
             this.gcChiTietPhieuNhap.Margin = new System.Windows.Forms.Padding(6);
@@ -801,7 +801,7 @@ namespace QLTVT
             this.txtMaNhanVien.Location = new System.Drawing.Point(156, 89);
             this.txtMaNhanVien.MinimumSize = new System.Drawing.Size(130, 30);
             this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(130, 30);
+            this.txtMaNhanVien.Size = new System.Drawing.Size(130, 28);
             this.txtMaNhanVien.TabIndex = 26;
             // 
             // txtDonGiaChiTietPhieuNhap
@@ -907,7 +907,7 @@ namespace QLTVT
             this.txtMaDonDatHang.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaDonDatHang.MinimumSize = new System.Drawing.Size(130, 30);
             this.txtMaDonDatHang.Name = "txtMaDonDatHang";
-            this.txtMaDonDatHang.Size = new System.Drawing.Size(130, 30);
+            this.txtMaDonDatHang.Size = new System.Drawing.Size(130, 28);
             this.txtMaDonDatHang.TabIndex = 21;
             // 
             // dteNgay
