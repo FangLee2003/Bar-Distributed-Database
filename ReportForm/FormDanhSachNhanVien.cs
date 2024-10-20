@@ -167,5 +167,10 @@ namespace QLTVT.ReportForm
             this.tableAdapterManager.UpdateAll(this.dataSet);
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -83,6 +83,36 @@ namespace QLTVT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
         /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage actions_add1 {
+            get {
+                object obj = ResourceManager.GetObject("actions_add1", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage actions_edit {
+            get {
+                object obj = ResourceManager.GetObject("actions_edit", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage actions_remove {
+            get {
+                object obj = ResourceManager.GetObject("actions_remove", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
         internal static DevExpress.Utils.Svg.SvgImage bo_quote {
             get {
                 object obj = ResourceManager.GetObject("bo_quote", resourceCulture);
@@ -113,6 +143,26 @@ namespace QLTVT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
         /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage close {
+            get {
+                object obj = ResourceManager.GetObject("close", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage delete {
+            get {
+                object obj = ResourceManager.GetObject("delete", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
         internal static DevExpress.Utils.Svg.SvgImage filterquery {
             get {
                 object obj = ResourceManager.GetObject("filterquery", resourceCulture);
@@ -136,6 +186,16 @@ namespace QLTVT.Properties {
         internal static DevExpress.Utils.Svg.SvgImage meeting {
             get {
                 object obj = ResourceManager.GetObject("meeting", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage navigation {
+            get {
+                object obj = ResourceManager.GetObject("navigation", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }
@@ -183,6 +243,16 @@ namespace QLTVT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
         /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage removedataitems {
+            get {
+                object obj = ResourceManager.GetObject("removedataitems", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
         internal static DevExpress.Utils.Svg.SvgImage security_key {
             get {
                 object obj = ResourceManager.GetObject("security_key", resourceCulture);
@@ -216,6 +286,16 @@ namespace QLTVT.Properties {
         internal static DevExpress.Utils.Svg.SvgImage stop {
             get {
                 object obj = ResourceManager.GetObject("stop", resourceCulture);
+                return ((DevExpress.Utils.Svg.SvgImage)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type DevExpress.Utils.Svg.SvgImage.
+        /// </summary>
+        internal static DevExpress.Utils.Svg.SvgImage weather_sunny {
+            get {
+                object obj = ResourceManager.GetObject("weather_sunny", resourceCulture);
                 return ((DevExpress.Utils.Svg.SvgImage)(obj));
             }
         }

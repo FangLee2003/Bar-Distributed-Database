@@ -12,10 +12,10 @@ using System.Windows.Forms;
 
 namespace QLTVT.ReportForm
 {
-    public partial class FormChiTietSoLuongTriGiaHangHoaNhapXuat : Form
+    public partial class FormNhapXuatChiTiet : Form
     {
         private string chiNhanh = "";
-        public FormChiTietSoLuongTriGiaHangHoaNhapXuat()
+        public FormNhapXuatChiTiet()
         {
             InitializeComponent();
         }
@@ -91,5 +91,6 @@ namespace QLTVT.ReportForm
             this.dteTuNgay.EditValue = "01-05-2021";
             this.dteToiNgay.EditValue = "21-12-2021";
         }
+
     }
 }

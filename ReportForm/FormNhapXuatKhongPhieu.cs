@@ -13,7 +13,7 @@ using System.Windows.Forms;
 
 namespace QLTVT.ReportForm
 {
-    public partial class FormDonHangKhongPhieuNhap : Form
+    public partial class FormNhapXuatKhongPhieu : Form
     {
         private SqlConnection connPublisher = new SqlConnection();
         private string chiNhanh = "";
@@ -68,7 +68,7 @@ namespace QLTVT.ReportForm
 
 
 
-        public FormDonHangKhongPhieuNhap()
+        public FormNhapXuatKhongPhieu()
         {
             InitializeComponent();
         }

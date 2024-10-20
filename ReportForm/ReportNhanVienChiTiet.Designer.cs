@@ -288,7 +288,7 @@ namespace QLTVT.ReportForm
             // 
             // txtNgaySinh
             // 
-            this.txtNgaySinh.LocationFloat = new DevExpress.Utils.PointFloat(499.9999F, 127.6667F);
+            this.txtNgaySinh.LocationFloat = new DevExpress.Utils.PointFloat(199.1668F, 177F);
             this.txtNgaySinh.Multiline = true;
             this.txtNgaySinh.Name = "txtNgaySinh";
             this.txtNgaySinh.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -301,7 +301,7 @@ namespace QLTVT.ReportForm
             // 
             this.xrLabel3.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
             new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(351.4216F, 127.6667F);
+            this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(50.5885F, 177F);
             this.xrLabel3.Multiline = true;
             this.xrLabel3.Name = "xrLabel3";
             this.xrLabel3.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -313,7 +313,7 @@ namespace QLTVT.ReportForm
             // 
             // txtHoTen
             // 
-            this.txtHoTen.LocationFloat = new DevExpress.Utils.PointFloat(199.1667F, 177F);
+            this.txtHoTen.LocationFloat = new DevExpress.Utils.PointFloat(500F, 127.6667F);
             this.txtHoTen.Multiline = true;
             this.txtHoTen.Name = "txtHoTen";
             this.txtHoTen.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -326,7 +326,7 @@ namespace QLTVT.ReportForm
             // 
             this.xrLabel2.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
             new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(48.33321F, 177F);
+            this.xrLabel2.LocationFloat = new DevExpress.Utils.PointFloat(349.1665F, 127.6667F);
             this.xrLabel2.Multiline = true;
             this.xrLabel2.Name = "xrLabel2";
             this.xrLabel2.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -351,7 +351,7 @@ namespace QLTVT.ReportForm
             // 
             this.xrLabel1.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
             new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(48.33331F, 127.6667F);
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(50.5885F, 127.6667F);
             this.xrLabel1.Multiline = true;
             this.xrLabel1.Name = "xrLabel1";
             this.xrLabel1.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);
@@ -365,7 +365,7 @@ namespace QLTVT.ReportForm
             // 
             this.xrLabel7.Font = new DevExpress.Drawing.DXFont("Tahoma", 10.2F, DevExpress.Drawing.DXFontStyle.Bold, DevExpress.Drawing.DXGraphicsUnit.Point, new DevExpress.Drawing.DXFontAdditionalProperty[] {
             new DevExpress.Drawing.DXFontAdditionalProperty("GdiCharSet", ((byte)(0)))});
-            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(48.33331F, 227.8334F);
+            this.xrLabel7.LocationFloat = new DevExpress.Utils.PointFloat(50.5885F, 227.8334F);
             this.xrLabel7.Multiline = true;
             this.xrLabel7.Name = "xrLabel7";
             this.xrLabel7.Padding = new DevExpress.XtraPrinting.PaddingInfo(2, 2, 0, 0, 100F);

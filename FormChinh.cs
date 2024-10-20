@@ -290,14 +290,14 @@ namespace QLTVT
 
         private void btnDonHangKhongPhieuNhap_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Form f = this.CheckExists(typeof(FormDonHangKhongPhieuNhap));
+            Form f = this.CheckExists(typeof(FormNhapXuatKhongPhieu));
             if (f != null)
             {
                 f.Activate();
             }
             else
             {
-                FormDonHangKhongPhieuNhap form = new FormDonHangKhongPhieuNhap();
+                FormNhapXuatKhongPhieu form = new FormNhapXuatKhongPhieu();
                 //form.MdiParent = this;
                 form.Show();
             }
@@ -305,14 +305,14 @@ namespace QLTVT
 
         private void btnChiTietNhapXuat_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Form f = this.CheckExists(typeof(FormChiTietSoLuongTriGiaHangHoaNhapXuat));
+            Form f = this.CheckExists(typeof(FormNhapXuatChiTiet));
             if (f != null)
             {
                 f.Activate();
             }
             else
             {
-                FormChiTietSoLuongTriGiaHangHoaNhapXuat form = new FormChiTietSoLuongTriGiaHangHoaNhapXuat();
+                FormNhapXuatChiTiet form = new FormNhapXuatChiTiet();
                 //form.MdiParent = this;
                 form.Show();
             }
@@ -320,14 +320,14 @@ namespace QLTVT
 
         private void btnHoatDongNhanVien_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Form f = this.CheckExists(typeof(FormHoatDongNhanVien));
+            Form f = this.CheckExists(typeof(FormNhanVienChiTiet));
             if (f != null)
             {
                 f.Activate();
             }
             else
             {
-                FormHoatDongNhanVien form = new FormHoatDongNhanVien();
+                FormNhanVienChiTiet form = new FormNhanVienChiTiet();
                 //form.MdiParent = this;
                 form.Show();
             }
@@ -335,14 +335,14 @@ namespace QLTVT
 
         private void btnTongHopNhapXuat_ItemClick(object sender, ItemClickEventArgs e)
         {
-            Form f = this.CheckExists(typeof(FormTongHopNhapXuat));
+            Form f = this.CheckExists(typeof(FormNhapXuatTongHop));
             if (f != null)
             {
                 f.Activate();
             }
             else
             {
-                FormTongHopNhapXuat form = new FormTongHopNhapXuat();
+                FormNhapXuatTongHop form = new FormNhapXuatTongHop();
                 //form.MdiParent = this;
                 form.Show();
             }

@@ -102,8 +102,8 @@ namespace QLTVT
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.panelNhapLieu)).BeginInit();
             this.panelNhapLieu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dteNGAYSINH.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dteNGAYSINH.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dteNGAYSINH.Properties.CalendarTimeProperties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtLUONG.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtDIACHI.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtMACN.Properties)).BeginInit();
@@ -230,7 +230,7 @@ namespace QLTVT
             // 
             this.btnTHEM.Caption = "Thêm";
             this.btnTHEM.Id = 0;
-            this.btnTHEM.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnTHEM.ImageOptions.SvgImage")));
+            this.btnTHEM.ImageOptions.SvgImage = global::QLTVT.Properties.Resources.weather_sunny;
             this.btnTHEM.Name = "btnTHEM";
             this.btnTHEM.Size = new System.Drawing.Size(80, 0);
             this.btnTHEM.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnTHEM_ItemClick);
@@ -239,7 +239,7 @@ namespace QLTVT
             // 
             this.btnXOA.Caption = "Xoá";
             this.btnXOA.Id = 1;
-            this.btnXOA.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnXOA.ImageOptions.SvgImage")));
+            this.btnXOA.ImageOptions.SvgImage = global::QLTVT.Properties.Resources.removedataitems;
             this.btnXOA.Name = "btnXOA";
             this.btnXOA.Size = new System.Drawing.Size(70, 0);
             this.btnXOA.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnXOA_ItemClick);
@@ -248,7 +248,7 @@ namespace QLTVT
             // 
             this.btnGHI.Caption = "Ghi";
             this.btnGHI.Id = 2;
-            this.btnGHI.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnGHI.ImageOptions.SvgImage")));
+            this.btnGHI.ImageOptions.SvgImage = global::QLTVT.Properties.Resources.actions_edit;
             this.btnGHI.Name = "btnGHI";
             this.btnGHI.Size = new System.Drawing.Size(70, 0);
             this.btnGHI.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnGHI_ItemClick);
@@ -273,7 +273,7 @@ namespace QLTVT
             // 
             this.btnCHUYENCHINHANH.Caption = "Chuyển Chi Nhánh";
             this.btnCHUYENCHINHANH.Id = 5;
-            this.btnCHUYENCHINHANH.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnCHUYENCHINHANH.ImageOptions.SvgImage")));
+            this.btnCHUYENCHINHANH.ImageOptions.SvgImage = global::QLTVT.Properties.Resources.navigation;
             this.btnCHUYENCHINHANH.Name = "btnCHUYENCHINHANH";
             this.btnCHUYENCHINHANH.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnCHUYENCHINHANH_ItemClick);
             // 
@@ -281,8 +281,9 @@ namespace QLTVT
             // 
             this.btnTHOAT.Caption = "Thoát";
             this.btnTHOAT.Id = 6;
-            this.btnTHOAT.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnTHOAT.ImageOptions.SvgImage")));
+            this.btnTHOAT.ImageOptions.SvgImage = global::QLTVT.Properties.Resources.delete;
             this.btnTHOAT.Name = "btnTHOAT";
+            this.btnTHOAT.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
             this.btnTHOAT.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem7_ItemClick);
             // 
             // bar3
@@ -348,10 +349,11 @@ namespace QLTVT
             // 
             this.cmbCHINHANH.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbCHINHANH.Enabled = false;
+            this.cmbCHINHANH.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbCHINHANH.FormattingEnabled = true;
-            this.cmbCHINHANH.Location = new System.Drawing.Point(319, 27);
+            this.cmbCHINHANH.Location = new System.Drawing.Point(368, 22);
             this.cmbCHINHANH.Name = "cmbCHINHANH";
-            this.cmbCHINHANH.Size = new System.Drawing.Size(316, 24);
+            this.cmbCHINHANH.Size = new System.Drawing.Size(271, 29);
             this.cmbCHINHANH.TabIndex = 1;
             this.cmbCHINHANH.SelectedIndexChanged += new System.EventHandler(this.cmbCHINHANH_SelectedIndexChanged);
             // 
@@ -359,7 +361,8 @@ namespace QLTVT
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft JhengHei", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(173, 26);
+            this.label1.ForeColor = System.Drawing.Color.DarkRed;
+            this.label1.Location = new System.Drawing.Point(254, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(108, 24);
             this.label1.TabIndex = 0;
@@ -423,6 +426,12 @@ namespace QLTVT
             // 
             // colMANV
             // 
+            this.colMANV.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colMANV.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colMANV.AppearanceHeader.Options.UseBackColor = true;
+            this.colMANV.AppearanceHeader.Options.UseFont = true;
+            this.colMANV.AppearanceHeader.Options.UseTextOptions = true;
+            this.colMANV.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colMANV.Caption = "Mã nhân viên";
             this.colMANV.FieldName = "MANV";
             this.colMANV.MinWidth = 25;
@@ -434,6 +443,12 @@ namespace QLTVT
             // 
             // colHO
             // 
+            this.colHO.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colHO.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colHO.AppearanceHeader.Options.UseBackColor = true;
+            this.colHO.AppearanceHeader.Options.UseFont = true;
+            this.colHO.AppearanceHeader.Options.UseTextOptions = true;
+            this.colHO.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colHO.Caption = "Họ";
             this.colHO.FieldName = "HO";
             this.colHO.MinWidth = 25;
@@ -445,6 +460,12 @@ namespace QLTVT
             // 
             // colTEN
             // 
+            this.colTEN.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colTEN.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTEN.AppearanceHeader.Options.UseBackColor = true;
+            this.colTEN.AppearanceHeader.Options.UseFont = true;
+            this.colTEN.AppearanceHeader.Options.UseTextOptions = true;
+            this.colTEN.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colTEN.Caption = "Tên";
             this.colTEN.FieldName = "TEN";
             this.colTEN.MinWidth = 25;
@@ -456,6 +477,12 @@ namespace QLTVT
             // 
             // colDIACHI
             // 
+            this.colDIACHI.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colDIACHI.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colDIACHI.AppearanceHeader.Options.UseBackColor = true;
+            this.colDIACHI.AppearanceHeader.Options.UseFont = true;
+            this.colDIACHI.AppearanceHeader.Options.UseTextOptions = true;
+            this.colDIACHI.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colDIACHI.Caption = "Địa chỉ";
             this.colDIACHI.FieldName = "DIACHI";
             this.colDIACHI.MinWidth = 25;
@@ -463,10 +490,16 @@ namespace QLTVT
             this.colDIACHI.OptionsColumn.AllowEdit = false;
             this.colDIACHI.Visible = true;
             this.colDIACHI.VisibleIndex = 3;
-            this.colDIACHI.Width = 94;
+            this.colDIACHI.Width = 135;
             // 
             // colNGAYSINH
             // 
+            this.colNGAYSINH.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colNGAYSINH.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colNGAYSINH.AppearanceHeader.Options.UseBackColor = true;
+            this.colNGAYSINH.AppearanceHeader.Options.UseFont = true;
+            this.colNGAYSINH.AppearanceHeader.Options.UseTextOptions = true;
+            this.colNGAYSINH.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colNGAYSINH.Caption = "Ngày sinh";
             this.colNGAYSINH.FieldName = "NGAYSINH";
             this.colNGAYSINH.MinWidth = 25;
@@ -478,6 +511,12 @@ namespace QLTVT
             // 
             // colLUONG
             // 
+            this.colLUONG.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colLUONG.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colLUONG.AppearanceHeader.Options.UseBackColor = true;
+            this.colLUONG.AppearanceHeader.Options.UseFont = true;
+            this.colLUONG.AppearanceHeader.Options.UseTextOptions = true;
+            this.colLUONG.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colLUONG.Caption = "Lương";
             this.colLUONG.DisplayFormat.FormatString = "n0";
             this.colLUONG.DisplayFormat.FormatType = DevExpress.Utils.FormatType.Numeric;
@@ -487,10 +526,16 @@ namespace QLTVT
             this.colLUONG.OptionsColumn.AllowEdit = false;
             this.colLUONG.Visible = true;
             this.colLUONG.VisibleIndex = 5;
-            this.colLUONG.Width = 94;
+            this.colLUONG.Width = 102;
             // 
             // colMACN
             // 
+            this.colMACN.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colMACN.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colMACN.AppearanceHeader.Options.UseBackColor = true;
+            this.colMACN.AppearanceHeader.Options.UseFont = true;
+            this.colMACN.AppearanceHeader.Options.UseTextOptions = true;
+            this.colMACN.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colMACN.Caption = "Mã chi nhánh";
             this.colMACN.FieldName = "MACN";
             this.colMACN.MinWidth = 25;
@@ -502,6 +547,12 @@ namespace QLTVT
             // 
             // colTrangThaiXoa
             // 
+            this.colTrangThaiXoa.AppearanceHeader.BackColor = System.Drawing.Color.DarkRed;
+            this.colTrangThaiXoa.AppearanceHeader.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.colTrangThaiXoa.AppearanceHeader.Options.UseBackColor = true;
+            this.colTrangThaiXoa.AppearanceHeader.Options.UseFont = true;
+            this.colTrangThaiXoa.AppearanceHeader.Options.UseTextOptions = true;
+            this.colTrangThaiXoa.AppearanceHeader.TextOptions.HAlignment = DevExpress.Utils.HorzAlignment.Center;
             this.colTrangThaiXoa.Caption = "Trạng thái";
             this.colTrangThaiXoa.FieldName = "TrangThaiXoa";
             this.colTrangThaiXoa.MinWidth = 25;
@@ -548,8 +599,8 @@ namespace QLTVT
             this.dteNGAYSINH.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dteNGAYSINH.Properties.CalendarTimeProperties.TimeEditStyle = DevExpress.XtraEditors.Repository.TimeEditStyle.TouchUI;
-            this.dteNGAYSINH.Properties.MaxValue = new System.DateTime(2021, 12, 31, 23, 59, 0, 0);
-            this.dteNGAYSINH.Properties.MinValue = new System.DateTime(1980, 1, 1, 0, 0, 0, 0);
+            this.dteNGAYSINH.Properties.MaxDate = new System.DateTime(2021, 12, 31, 23, 59, 0, 0);
+            this.dteNGAYSINH.Properties.MinDate = new System.DateTime(1980, 1, 1, 0, 0, 0, 0);
             this.dteNGAYSINH.Properties.TextEditStyle = DevExpress.XtraEditors.Controls.TextEditStyles.DisableTextEditor;
             this.dteNGAYSINH.Size = new System.Drawing.Size(125, 22);
             this.dteNGAYSINH.TabIndex = 16;
@@ -677,9 +728,10 @@ namespace QLTVT
             this.Controls.Add(this.barDockControlBottom);
             this.Controls.Add(this.barDockControlTop);
             this.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
             this.Name = "FormNhanVien";
-            this.Text = "Nhân Viên";
+            this.Text = "Staff";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FormNhanVien_Load);
             ((System.ComponentModel.ISupportInitialize)(this.barManager1)).EndInit();

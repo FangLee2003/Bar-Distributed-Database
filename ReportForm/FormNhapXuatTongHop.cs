@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -11,9 +12,9 @@ using System.Windows.Forms;
 
 namespace QLTVT.ReportForm
 {
-    public partial class FormTongHopNhapXuat : Form
+    public partial class FormNhapXuatTongHop : Form
     {
-        public FormTongHopNhapXuat()
+        public FormNhapXuatTongHop()
         {
             InitializeComponent();
         }
@@ -70,7 +71,6 @@ namespace QLTVT.ReportForm
             string chiNhanh = cmbCHINHANH.SelectedValue.ToString().Contains("1") ? "Helsinki" : "Lisbon";
 
             
-
             ReportNhapXuatTongHop report = new ReportNhapXuatTongHop(fromDate, toDate);
             report.txtTuNgay.Text = dteTuNgay.EditValue.ToString();
             report.txtToiNgay.Text = dteToiNgay.EditValue.ToString();
@@ -78,6 +78,49 @@ namespace QLTVT.ReportForm
 
             ReportPrintTool printTool = new ReportPrintTool(report);
             printTool.ShowPreviewDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DateTime fromDate = (DateTime)dteTuNgay.DateTime;
+            DateTime toDate = (DateTime)dteToiNgay.DateTime;
+            string chiNhanh = cmbCHINHANH.SelectedValue.ToString().Contains("1") ? "Helsinki" : "Lisbon";
+
+            try
+            {
+
+                ReportNhapXuatTongHop report = new ReportNhapXuatTongHop(fromDate, toDate);
+               
+                report.txtTuNgay.Text = dteTuNgay.EditValue.ToString();
+                report.txtToiNgay.Text = dteToiNgay.EditValue.ToString();
+                report.txtChiNhanh.Text = chiNhanh.ToUpper();
+
+
+                if (File.Exists(@"D:\ReportNhapXuatTongHop.pdf"))
+                {
+                    DialogResult dr = MessageBox.Show("File ReportNhapXuatTongHop.pdf tại ổ D đã có!\nBạn có muốn tạo lại?",
+                        "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                    if (dr == DialogResult.Yes)
+                    {
+                        report.ExportToPdf(@"D:\ReportNhapXuatTongHop.pdf");
+                        MessageBox.Show("File ReportChiTietSoLuongTriGiaHangHoaNhapXuat.pdf đã được ghi thành công tại ổ D",
+                "Xác nhận", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                }
+                else
+                {
+                    report.ExportToPdf(@"D:\ReportNhapXuatTongHop.pdf");
+                    MessageBox.Show("File ReportNhapXuatTongHop.pdf đã được ghi thành công tại ổ D",
+                "Xác nhận", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+            }
+            catch (IOException ex)
+            {
+                MessageBox.Show("Vui lòng đóng file ReportNhapXuatTongHop.pdf",
+                    "Xác nhận", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                return;
+            }
         }
     }
 }

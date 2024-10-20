@@ -13,9 +13,9 @@ using System.Windows.Forms;
 
 namespace QLTVT.ReportForm
 {
-    public partial class FormHoatDongNhanVien : Form
+    public partial class FormNhanVienChiTiet : Form
     {
-        public FormHoatDongNhanVien()
+        public FormNhanVienChiTiet()
         {
             InitializeComponent();
         }

@@ -119,7 +119,7 @@ namespace QLTVT
             this.pageNhapXuat,
             this.pageBaoCao,
             this.pageHeThong});
-            this.ribbon.Size = new System.Drawing.Size(1554, 160);
+            this.ribbon.Size = new System.Drawing.Size(1554, 193);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             this.ribbon.Click += new System.EventHandler(this.ribbon_Click);
             // 
@@ -390,11 +390,11 @@ namespace QLTVT
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 858);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 852);
             this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1554, 24);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1554, 30);
             // 
             // xtraTabbedMdiManager1
             // 
@@ -407,7 +407,7 @@ namespace QLTVT
             this.MANHANVIEN,
             this.HOTEN,
             this.NHOM});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 832);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 826);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 14, 0);
             this.statusStrip1.Size = new System.Drawing.Size(1554, 26);
@@ -417,22 +417,25 @@ namespace QLTVT
             // MANHANVIEN
             // 
             this.MANHANVIEN.ActiveLinkColor = System.Drawing.Color.Black;
+            this.MANHANVIEN.LinkColor = System.Drawing.Color.RoyalBlue;
             this.MANHANVIEN.Name = "MANHANVIEN";
-            this.MANHANVIEN.Size = new System.Drawing.Size(115, 20);
-            this.MANHANVIEN.Text = "MÃ NHÂN VIÊN";
+            this.MANHANVIEN.Size = new System.Drawing.Size(59, 20);
+            this.MANHANVIEN.Text = "Staff ID";
             this.MANHANVIEN.Click += new System.EventHandler(this.toolStripStatusLabel1_Click_1);
             // 
             // HOTEN
             // 
+            this.HOTEN.LinkColor = System.Drawing.Color.RoyalBlue;
             this.HOTEN.Name = "HOTEN";
-            this.HOTEN.Size = new System.Drawing.Size(62, 20);
-            this.HOTEN.Text = "HỌ TÊN";
+            this.HOTEN.Size = new System.Drawing.Size(76, 20);
+            this.HOTEN.Text = "Full Name";
             // 
             // NHOM
             // 
+            this.NHOM.LinkColor = System.Drawing.Color.RoyalBlue;
             this.NHOM.Name = "NHOM";
-            this.NHOM.Size = new System.Drawing.Size(63, 20);
-            this.NHOM.Text = "VAI TRÒ";
+            this.NHOM.Size = new System.Drawing.Size(39, 20);
+            this.NHOM.Text = "Role";
             // 
             // ribbonPageGroup4
             // 
