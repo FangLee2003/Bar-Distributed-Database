@@ -1,0 +1,20 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<svg x="0px" y="0px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" id="Layer_1" style="enable-background:new 0 0 32 32">
+  <style type="text/css">
+	.Blue{fill:#1177D7;}
+	.Black{fill:#727272;}
+	.Yellow{fill:#FFB115;}
+	.Red{fill:#D11C1C;}
+</style>
+  <g id="Sunny">
+    <rect x="0" y="14" width="6" height="2" class="Yellow" />
+    <rect x="3.5" y="22.5" width="6" height="2" class="Yellow" transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, -14.6985, 11.4853)" />
+    <rect x="5.5" y="3.5" width="2" height="6" class="Yellow" transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, -2.6985, 6.5147)" />
+    <rect x="14" y="0" width="2" height="6" class="Yellow" />
+    <rect x="20.5" y="5.5" width="6" height="2" class="Yellow" transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, 2.2721, 18.5147)" />
+    <rect x="22.5" y="20.5" width="2" height="6" class="Yellow" transform="matrix(0.7071, -0.7071, 0.7071, 0.7071, -9.7279, 23.4853)" />
+    <rect x="14" y="24" width="2" height="6" class="Yellow" />
+    <rect x="24" y="14" width="6" height="2" class="Yellow" />
+    <circle cx="15" cy="15" r="7" class="Yellow" />
+  </g>
+</svg>

@@ -523,5 +523,15 @@ namespace QLTVT
         {
 
         }
+
+        private void mAKHOLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panelNhapLieu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

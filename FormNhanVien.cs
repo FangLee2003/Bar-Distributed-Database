@@ -867,5 +867,10 @@ namespace QLTVT
             /*Step 4*/
             this.btnHOANTAC.Enabled = true;
         }
+
+        private void panelNhapLieu_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

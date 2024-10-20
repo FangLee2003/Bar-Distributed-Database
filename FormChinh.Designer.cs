@@ -276,7 +276,7 @@ namespace QLTVT
             // 
             // btnMENU
             // 
-            this.btnMENU.Caption = "BILL";
+            this.btnMENU.Caption = "RECEIPT";
             this.btnMENU.Id = 22;
             this.btnMENU.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("btnMENU.ImageOptions.LargeImage")));
             this.btnMENU.LargeWidth = 100;
@@ -288,7 +288,7 @@ namespace QLTVT
             // 
             // btnDonDatHang
             // 
-            this.btnDonDatHang.Caption = "Đơn Đặt Hàng";
+            this.btnDonDatHang.Caption = "Order";
             this.btnDonDatHang.Id = 24;
             this.btnDonDatHang.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnDonDatHang.ImageOptions.SvgImage")));
             this.btnDonDatHang.Name = "btnDonDatHang";
@@ -296,7 +296,7 @@ namespace QLTVT
             // 
             // btnPhieuNhap
             // 
-            this.btnPhieuNhap.Caption = "Phiếu Nhập";
+            this.btnPhieuNhap.Caption = "Purchase";
             this.btnPhieuNhap.Id = 25;
             this.btnPhieuNhap.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPhieuNhap.ImageOptions.SvgImage")));
             this.btnPhieuNhap.Name = "btnPhieuNhap";
@@ -304,7 +304,7 @@ namespace QLTVT
             // 
             // btnPhieuXuat
             // 
-            this.btnPhieuXuat.Caption = "Phiếu Xuất";
+            this.btnPhieuXuat.Caption = "Sales";
             this.btnPhieuXuat.Id = 26;
             this.btnPhieuXuat.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnPhieuXuat.ImageOptions.SvgImage")));
             this.btnPhieuXuat.Name = "btnPhieuXuat";

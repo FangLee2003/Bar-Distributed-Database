@@ -885,5 +885,25 @@ namespace QLTVT
                 this.phieuNhapTableAdapter.Fill(this.dataSet.PhieuNhap);
             }
         }
+
+        private void gcDonDatHang_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBoxDonDatHang_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDonGia_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMaVatTu_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
