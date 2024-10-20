@@ -877,5 +877,50 @@ namespace QLTVT
                 undoList.Pop();
             }
         }
+
+        private void groupBoxPhieuNhap_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dONGIALabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gcChiTietPhieuXuat_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dONGIALabel1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDonGiaChiTietPhieuXuat_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBoxPhieuNhap_Enter_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void nGAYLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dteNgay_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void mAPNLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

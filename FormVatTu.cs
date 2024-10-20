@@ -642,5 +642,105 @@ namespace QLTVT
                 undoList.Pop();
             }
         }
+
+        private void panelControl1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void mAVTLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tENVTLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dVTLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sOLUONGTONLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void barDockControlTop_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void barDockControlBottom_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void barDockControlLeft_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void barDockControlRight_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCHUYENCHINHANH_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bdsVatTu_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gcVATTU_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSOLUONGTON_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDONVIVATTU_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtTENVT_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtMAVT_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bdsCTPX_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bdsCTPN_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bdsCTDDH_CurrentChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

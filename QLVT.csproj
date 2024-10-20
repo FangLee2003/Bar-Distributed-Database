@@ -134,11 +134,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReportForm\FormChiTietSoLuongTriGiaHangHoaNhapXuat.cs">
+    <Compile Include="ReportForm\FormNhapXuatChiTiet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportForm\FormChiTietSoLuongTriGiaHangHoaNhapXuat.Designer.cs">
-      <DependentUpon>FormChiTietSoLuongTriGiaHangHoaNhapXuat.cs</DependentUpon>
+    <Compile Include="ReportForm\FormNhapXuatChiTiet.Designer.cs">
+      <DependentUpon>FormNhapXuatChiTiet.cs</DependentUpon>
     </Compile>
     <Compile Include="ReportForm\FormDanhSachNhanVien.cs">
       <SubType>Form</SubType>
@@ -152,23 +152,23 @@
     <Compile Include="ReportForm\FormDanhSachVatTu.Designer.cs">
       <DependentUpon>FormDanhSachVatTu.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReportForm\FormDonHangKhongPhieuNhap.cs">
+    <Compile Include="ReportForm\FormNhapXuatKhongPhieu.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportForm\FormDonHangKhongPhieuNhap.Designer.cs">
-      <DependentUpon>FormDonHangKhongPhieuNhap.cs</DependentUpon>
+    <Compile Include="ReportForm\FormNhapXuatKhongPhieu.Designer.cs">
+      <DependentUpon>FormNhapXuatKhongPhieu.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReportForm\FormHoatDongNhanVien.cs">
+    <Compile Include="ReportForm\FormNhanVienChiTiet.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportForm\FormHoatDongNhanVien.Designer.cs">
-      <DependentUpon>FormHoatDongNhanVien.cs</DependentUpon>
+    <Compile Include="ReportForm\FormNhanVienChiTiet.Designer.cs">
+      <DependentUpon>FormNhanVienChiTiet.cs</DependentUpon>
     </Compile>
-    <Compile Include="ReportForm\FormTongHopNhapXuat.cs">
+    <Compile Include="ReportForm\FormNhapXuatTongHop.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ReportForm\FormTongHopNhapXuat.Designer.cs">
-      <DependentUpon>FormTongHopNhapXuat.cs</DependentUpon>
+    <Compile Include="ReportForm\FormNhapXuatTongHop.Designer.cs">
+      <DependentUpon>FormNhapXuatTongHop.cs</DependentUpon>
     </Compile>
     <Compile Include="ReportForm\ReportNhapXuatChiTiet.cs">
       <SubType>Component</SubType>
@@ -280,8 +280,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ReportForm\FormChiTietSoLuongTriGiaHangHoaNhapXuat.resx">
-      <DependentUpon>FormChiTietSoLuongTriGiaHangHoaNhapXuat.cs</DependentUpon>
+    <EmbeddedResource Include="ReportForm\FormNhapXuatChiTiet.resx">
+      <DependentUpon>FormNhapXuatChiTiet.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportForm\FormDanhSachNhanVien.resx">
       <DependentUpon>FormDanhSachNhanVien.cs</DependentUpon>
@@ -289,14 +289,14 @@
     <EmbeddedResource Include="ReportForm\FormDanhSachVatTu.resx">
       <DependentUpon>FormDanhSachVatTu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportForm\FormDonHangKhongPhieuNhap.resx">
-      <DependentUpon>FormDonHangKhongPhieuNhap.cs</DependentUpon>
+    <EmbeddedResource Include="ReportForm\FormNhapXuatKhongPhieu.resx">
+      <DependentUpon>FormNhapXuatKhongPhieu.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportForm\FormHoatDongNhanVien.resx">
-      <DependentUpon>FormHoatDongNhanVien.cs</DependentUpon>
+    <EmbeddedResource Include="ReportForm\FormNhanVienChiTiet.resx">
+      <DependentUpon>FormNhanVienChiTiet.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReportForm\FormTongHopNhapXuat.resx">
-      <DependentUpon>FormTongHopNhapXuat.cs</DependentUpon>
+    <EmbeddedResource Include="ReportForm\FormNhapXuatTongHop.resx">
+      <DependentUpon>FormNhapXuatTongHop.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ReportForm\ReportNhapXuatChiTiet.resx">
       <DependentUpon>ReportNhapXuatChiTiet.cs</DependentUpon>
@@ -335,6 +335,7 @@
       <DependentUpon>FormChuyenChiNhanh.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
+    <None Include="ClassDiagram1.cd" />
     <None Include="DataSet.xsc">
       <DependentUpon>DataSet.xsd</DependentUpon>
     </None>
@@ -403,6 +404,99 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ignoremasterfilters.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_add1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_remove.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navigation.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navigation1.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navigation2.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete4.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weather_sunny5.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\removedataitems5.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actions_edit5.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\navigation3.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete5.svg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

@@ -151,11 +151,11 @@ namespace QLTVT
 
         public static FormDanhSachNhanVien formDanhSachNhanVien;
         public static FormDanhSachVatTu formDanhSachVatTu;
-        public static FormDonHangKhongPhieuNhap formDonHangKhongPhieuNhap;
+        public static FormNhapXuatKhongPhieu formDonHangKhongPhieuNhap;
 
-        public static FormChiTietSoLuongTriGiaHangHoaNhapXuat formChiTietSoLuongTriGiaHangHoaNhapXuat;
-        public static FormHoatDongNhanVien formHoatDongNhanVien;
-        public static FormTongHopNhapXuat formTongHopNhapXuat;
+        public static FormNhapXuatChiTiet formChiTietSoLuongTriGiaHangHoaNhapXuat;
+        public static FormNhanVienChiTiet formHoatDongNhanVien;
+        public static FormNhapXuatTongHop formTongHopNhapXuat;
         /*****************************************************
          * mở kết nối tới server 
          * @return trả về 1 nếu thành công
