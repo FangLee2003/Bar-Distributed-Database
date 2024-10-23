@@ -162,7 +162,7 @@ namespace QLTVT
             this.btnXacNhan.ForeColor = System.Drawing.Color.White;
             this.btnXacNhan.Location = new System.Drawing.Point(119, 591);
             this.btnXacNhan.Name = "btnXacNhan";
-            this.btnXacNhan.Size = new System.Drawing.Size(300, 50);
+            this.btnXacNhan.Size = new System.Drawing.Size(300, 60);
             this.btnXacNhan.TabIndex = 24;
             this.btnXacNhan.Text = "Confirm";
             this.btnXacNhan.UseVisualStyleBackColor = false;
@@ -222,7 +222,7 @@ namespace QLTVT
             this.Appearance.Options.UseBorderColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(571, 665);
+            this.ClientSize = new System.Drawing.Size(571, 674);
             this.Controls.Add(this.rdUser);
             this.Controls.Add(this.rdChiNhanh);
             this.Controls.Add(this.label2);
@@ -237,6 +237,7 @@ namespace QLTVT
             this.Controls.Add(this.label3);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
+            this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("FormTaoTaiKhoan.IconOptions.Image")));
             this.Name = "FormTaoTaiKhoan";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tạo Tài Khoản";

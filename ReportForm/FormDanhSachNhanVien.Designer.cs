@@ -166,7 +166,7 @@ namespace QLTVT.ReportForm
             this.colMANV.OptionsColumn.AllowEdit = false;
             this.colMANV.Visible = true;
             this.colMANV.VisibleIndex = 0;
-            this.colMANV.Width = 78;
+            this.colMANV.Width = 83;
             // 
             // colHO
             // 
@@ -304,6 +304,7 @@ namespace QLTVT.ReportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(978, 596);
             this.Controls.Add(this.nhanVienGridControl);
             this.Controls.Add(this.cmbCHINHANH);

@@ -351,34 +351,34 @@ namespace QLTVT
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlTop.Size = new System.Drawing.Size(1007, 30);
+            this.barDockControlTop.Size = new System.Drawing.Size(1007, 47);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 714);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 705);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1007, 20);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1007, 29);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 30);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 47);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 684);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 658);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1007, 30);
+            this.barDockControlRight.Location = new System.Drawing.Point(1007, 47);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 684);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 658);
             // 
             // btnCHUYENCHINHANH
             // 
@@ -399,7 +399,7 @@ namespace QLTVT
             this.panelControl1.Controls.Add(this.cmbCHINHANH);
             this.panelControl1.Controls.Add(this.label1);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl1.Location = new System.Drawing.Point(0, 30);
+            this.panelControl1.Location = new System.Drawing.Point(0, 47);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(1007, 68);
             this.panelControl1.TabIndex = 5;
@@ -466,7 +466,7 @@ namespace QLTVT
             this.gcDonDatHang.DataSource = this.bdsDonDatHang;
             this.gcDonDatHang.Dock = System.Windows.Forms.DockStyle.Top;
             this.gcDonDatHang.Enabled = false;
-            this.gcDonDatHang.Location = new System.Drawing.Point(0, 98);
+            this.gcDonDatHang.Location = new System.Drawing.Point(0, 115);
             this.gcDonDatHang.MainView = this.gridView1;
             this.gcDonDatHang.MenuManager = this.barManager1;
             this.gcDonDatHang.Name = "gcDonDatHang";
@@ -575,12 +575,16 @@ namespace QLTVT
             // 
             // gcDDH
             // 
+            this.gcDDH.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.gcDDH.Appearance.Options.UseBackColor = true;
+            this.gcDDH.AppearanceCaption.BorderColor = System.Drawing.Color.IndianRed;
+            this.gcDDH.AppearanceCaption.Options.UseBorderColor = true;
             this.gcDDH.Controls.Add(this.panelControl3);
             this.gcDDH.Controls.Add(this.panelControl2);
             this.gcDDH.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gcDDH.Location = new System.Drawing.Point(0, 295);
+            this.gcDDH.Location = new System.Drawing.Point(0, 312);
             this.gcDDH.Name = "gcDDH";
-            this.gcDDH.Size = new System.Drawing.Size(1007, 419);
+            this.gcDDH.Size = new System.Drawing.Size(1007, 393);
             this.gcDDH.TabIndex = 24;
             this.gcDDH.Text = "Information";
             // 
@@ -588,22 +592,24 @@ namespace QLTVT
             // 
             this.panelControl3.Controls.Add(this.gcChiTietDonDatHang);
             this.panelControl3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelControl3.Location = new System.Drawing.Point(490, 28);
+            this.panelControl3.Location = new System.Drawing.Point(490, 36);
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(515, 389);
+            this.panelControl3.Size = new System.Drawing.Size(515, 355);
             this.panelControl3.TabIndex = 4;
             // 
             // gcChiTietDonDatHang
             // 
             this.gcChiTietDonDatHang.DataSource = this.bdsChiTietDonDatHang;
             this.gcChiTietDonDatHang.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gcChiTietDonDatHang.EmbeddedNavigator.Appearance.BackColor = System.Drawing.Color.Snow;
+            this.gcChiTietDonDatHang.EmbeddedNavigator.Appearance.Options.UseBackColor = true;
             this.gcChiTietDonDatHang.Enabled = false;
             this.gcChiTietDonDatHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gcChiTietDonDatHang.Location = new System.Drawing.Point(2, 2);
             this.gcChiTietDonDatHang.MainView = this.gvCTDDH;
             this.gcChiTietDonDatHang.MenuManager = this.barManager1;
             this.gcChiTietDonDatHang.Name = "gcChiTietDonDatHang";
-            this.gcChiTietDonDatHang.Size = new System.Drawing.Size(511, 385);
+            this.gcChiTietDonDatHang.Size = new System.Drawing.Size(511, 351);
             this.gcChiTietDonDatHang.TabIndex = 1;
             this.gcChiTietDonDatHang.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gvCTDDH});
@@ -699,13 +705,14 @@ namespace QLTVT
             this.panelControl2.Controls.Add(this.groupBox1);
             this.panelControl2.Controls.Add(this.groupBoxDonDatHang);
             this.panelControl2.Dock = System.Windows.Forms.DockStyle.Left;
-            this.panelControl2.Location = new System.Drawing.Point(2, 28);
+            this.panelControl2.Location = new System.Drawing.Point(2, 36);
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(488, 389);
+            this.panelControl2.Size = new System.Drawing.Size(488, 355);
             this.panelControl2.TabIndex = 3;
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Snow;
             this.groupBox1.Controls.Add(this.txtMaVatTu);
             this.groupBox1.Controls.Add(mAVTLabel);
             this.groupBox1.Controls.Add(dONGIALabel);
@@ -714,7 +721,7 @@ namespace QLTVT
             this.groupBox1.Controls.Add(this.txtSoLuong);
             this.groupBox1.Controls.Add(sOLUONGLabel);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Location = new System.Drawing.Point(2, 239);
+            this.groupBox1.Location = new System.Drawing.Point(2, 205);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(484, 148);
             this.groupBox1.TabIndex = 2;
@@ -808,6 +815,7 @@ namespace QLTVT
             // 
             // groupBoxDonDatHang
             // 
+            this.groupBoxDonDatHang.BackColor = System.Drawing.Color.Snow;
             this.groupBoxDonDatHang.Controls.Add(this.txtMaNhanVien);
             this.groupBoxDonDatHang.Controls.Add(this.txtMaKho);
             this.groupBoxDonDatHang.Controls.Add(this.btnChonKhoHang);
