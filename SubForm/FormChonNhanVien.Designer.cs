@@ -272,12 +272,12 @@ namespace QLTVT.SubForm
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DarkRed;
-            this.label2.Location = new System.Drawing.Point(254, 39);
+            this.label2.Location = new System.Drawing.Point(335, 39);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 29);
+            this.label2.Size = new System.Drawing.Size(96, 29);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Chi Nhánh";
+            this.label2.Text = "Branch";
             // 
             // cmbCHINHANH
             // 
@@ -285,7 +285,7 @@ namespace QLTVT.SubForm
             this.cmbCHINHANH.Enabled = false;
             this.cmbCHINHANH.Font = new System.Drawing.Font("Tahoma", 10F);
             this.cmbCHINHANH.FormattingEnabled = true;
-            this.cmbCHINHANH.Location = new System.Drawing.Point(395, 39);
+            this.cmbCHINHANH.Location = new System.Drawing.Point(444, 39);
             this.cmbCHINHANH.Margin = new System.Windows.Forms.Padding(8);
             this.cmbCHINHANH.Name = "cmbCHINHANH";
             this.cmbCHINHANH.Size = new System.Drawing.Size(200, 29);

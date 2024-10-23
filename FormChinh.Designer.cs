@@ -80,6 +80,8 @@ namespace QLTVT
             // 
             // ribbon
             // 
+            this.ribbon.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
+            this.ribbon.ColorScheme = DevExpress.XtraBars.Ribbon.RibbonControlColorScheme.Blue;
             this.ribbon.ExpandCollapseItem.Id = 0;
             this.ribbon.Font = new System.Drawing.Font("Tahoma", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ribbon.ForeColor = System.Drawing.Color.Black;
@@ -119,7 +121,7 @@ namespace QLTVT
             this.pageNhapXuat,
             this.pageBaoCao,
             this.pageHeThong});
-            this.ribbon.Size = new System.Drawing.Size(1554, 193);
+            this.ribbon.Size = new System.Drawing.Size(1554, 242);
             this.ribbon.StatusBar = this.ribbonStatusBar;
             this.ribbon.Click += new System.EventHandler(this.ribbon_Click);
             // 
@@ -390,11 +392,11 @@ namespace QLTVT
             // 
             // ribbonStatusBar
             // 
-            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 852);
+            this.ribbonStatusBar.Location = new System.Drawing.Point(0, 837);
             this.ribbonStatusBar.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.ribbonStatusBar.Name = "ribbonStatusBar";
             this.ribbonStatusBar.Ribbon = this.ribbon;
-            this.ribbonStatusBar.Size = new System.Drawing.Size(1554, 30);
+            this.ribbonStatusBar.Size = new System.Drawing.Size(1554, 45);
             // 
             // xtraTabbedMdiManager1
             // 
@@ -407,7 +409,7 @@ namespace QLTVT
             this.MANHANVIEN,
             this.HOTEN,
             this.NHOM});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 826);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 811);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 14, 0);
             this.statusStrip1.Size = new System.Drawing.Size(1554, 26);

@@ -99,6 +99,7 @@ namespace QLTVT
             // mAKHOLabel
             // 
             mAKHOLabel.AutoSize = true;
+            mAKHOLabel.BackColor = System.Drawing.Color.Transparent;
             mAKHOLabel.Location = new System.Drawing.Point(26, 71);
             mAKHOLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             mAKHOLabel.Name = "mAKHOLabel";
@@ -110,6 +111,7 @@ namespace QLTVT
             // tENKHOLabel
             // 
             tENKHOLabel.AutoSize = true;
+            tENKHOLabel.BackColor = System.Drawing.Color.Transparent;
             tENKHOLabel.Location = new System.Drawing.Point(271, 71);
             tENKHOLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             tENKHOLabel.Name = "tENKHOLabel";
@@ -120,7 +122,8 @@ namespace QLTVT
             // dIACHILabel
             // 
             dIACHILabel.AutoSize = true;
-            dIACHILabel.Location = new System.Drawing.Point(497, 71);
+            dIACHILabel.BackColor = System.Drawing.Color.Transparent;
+            dIACHILabel.Location = new System.Drawing.Point(491, 71);
             dIACHILabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             dIACHILabel.Name = "dIACHILabel";
             dIACHILabel.Size = new System.Drawing.Size(56, 17);
@@ -130,6 +133,7 @@ namespace QLTVT
             // mACNLabel
             // 
             mACNLabel.AutoSize = true;
+            mACNLabel.BackColor = System.Drawing.Color.Transparent;
             mACNLabel.Location = new System.Drawing.Point(753, 71);
             mACNLabel.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             mACNLabel.Name = "mACNLabel";
@@ -230,6 +234,8 @@ namespace QLTVT
             // 
             // bar3
             // 
+            this.bar3.BarAppearance.Normal.BackColor = System.Drawing.Color.Transparent;
+            this.bar3.BarAppearance.Normal.Options.UseBackColor = true;
             this.bar3.BarName = "Status bar";
             this.bar3.CanDockStyle = DevExpress.XtraBars.BarCanDockStyle.Bottom;
             this.bar3.DockCol = 0;
@@ -248,34 +254,34 @@ namespace QLTVT
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlTop.Size = new System.Drawing.Size(1019, 30);
+            this.barDockControlTop.Size = new System.Drawing.Size(1019, 47);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 507);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 510);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlBottom.Size = new System.Drawing.Size(1019, 20);
+            this.barDockControlBottom.Size = new System.Drawing.Size(1019, 29);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 30);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 47);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 477);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 463);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(1019, 30);
+            this.barDockControlRight.Location = new System.Drawing.Point(1019, 47);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 477);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 463);
             // 
             // btnCHUYENCHINHANH
             // 
@@ -286,11 +292,12 @@ namespace QLTVT
             // 
             // panelControl1
             // 
+            this.panelControl1.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.panelControl1.Controls.Add(this.label2);
             this.panelControl1.Controls.Add(this.cmbCHINHANH);
             this.panelControl1.Controls.Add(this.label1);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl1.Location = new System.Drawing.Point(0, 30);
+            this.panelControl1.Location = new System.Drawing.Point(0, 47);
             this.panelControl1.Margin = new System.Windows.Forms.Padding(8);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(1019, 105);
@@ -364,7 +371,7 @@ namespace QLTVT
             this.gcKHO.DataSource = this.bdsKho;
             this.gcKHO.Dock = System.Windows.Forms.DockStyle.Top;
             this.gcKHO.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(8);
-            this.gcKHO.Location = new System.Drawing.Point(0, 135);
+            this.gcKHO.Location = new System.Drawing.Point(0, 152);
             this.gcKHO.MainView = this.gridView1;
             this.gcKHO.Margin = new System.Windows.Forms.Padding(8);
             this.gcKHO.MenuManager = this.barManager1;
@@ -455,6 +462,8 @@ namespace QLTVT
             // 
             // panelNhapLieu
             // 
+            this.panelNhapLieu.AppearanceCaption.BorderColor = System.Drawing.Color.LightCoral;
+            this.panelNhapLieu.AppearanceCaption.Options.UseBorderColor = true;
             this.panelNhapLieu.Controls.Add(mACNLabel);
             this.panelNhapLieu.Controls.Add(this.txtMACHINHANH);
             this.panelNhapLieu.Controls.Add(dIACHILabel);
@@ -464,10 +473,10 @@ namespace QLTVT
             this.panelNhapLieu.Controls.Add(mAKHOLabel);
             this.panelNhapLieu.Controls.Add(this.txtMAKHO);
             this.panelNhapLieu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelNhapLieu.Location = new System.Drawing.Point(0, 370);
+            this.panelNhapLieu.Location = new System.Drawing.Point(0, 387);
             this.panelNhapLieu.Margin = new System.Windows.Forms.Padding(8);
             this.panelNhapLieu.Name = "panelNhapLieu";
-            this.panelNhapLieu.Size = new System.Drawing.Size(1019, 137);
+            this.panelNhapLieu.Size = new System.Drawing.Size(1019, 123);
             this.panelNhapLieu.TabIndex = 11;
             this.panelNhapLieu.Text = "Information";
             this.panelNhapLieu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelNhapLieu_Paint);
@@ -481,7 +490,12 @@ namespace QLTVT
             this.txtMACHINHANH.MenuManager = this.barManager1;
             this.txtMACHINHANH.MinimumSize = new System.Drawing.Size(135, 35);
             this.txtMACHINHANH.Name = "txtMACHINHANH";
+            this.txtMACHINHANH.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtMACHINHANH.Properties.Appearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.txtMACHINHANH.Properties.Appearance.Options.UseBackColor = true;
+            this.txtMACHINHANH.Properties.Appearance.Options.UseBorderColor = true;
             this.txtMACHINHANH.Properties.AutoHeight = false;
+            this.txtMACHINHANH.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.txtMACHINHANH.Size = new System.Drawing.Size(135, 35);
             this.txtMACHINHANH.TabIndex = 7;
             // 
@@ -493,9 +507,15 @@ namespace QLTVT
             this.txtDIACHI.MenuManager = this.barManager1;
             this.txtDIACHI.MinimumSize = new System.Drawing.Size(135, 35);
             this.txtDIACHI.Name = "txtDIACHI";
+            this.txtDIACHI.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtDIACHI.Properties.Appearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.txtDIACHI.Properties.Appearance.Options.UseBackColor = true;
+            this.txtDIACHI.Properties.Appearance.Options.UseBorderColor = true;
             this.txtDIACHI.Properties.AutoHeight = false;
+            this.txtDIACHI.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.txtDIACHI.Size = new System.Drawing.Size(135, 35);
             this.txtDIACHI.TabIndex = 5;
+            this.txtDIACHI.EditValueChanged += new System.EventHandler(this.txtDIACHI_EditValueChanged);
             // 
             // txtTENKHO
             // 
@@ -505,7 +525,12 @@ namespace QLTVT
             this.txtTENKHO.MenuManager = this.barManager1;
             this.txtTENKHO.MinimumSize = new System.Drawing.Size(135, 35);
             this.txtTENKHO.Name = "txtTENKHO";
+            this.txtTENKHO.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtTENKHO.Properties.Appearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.txtTENKHO.Properties.Appearance.Options.UseBackColor = true;
+            this.txtTENKHO.Properties.Appearance.Options.UseBorderColor = true;
             this.txtTENKHO.Properties.AutoHeight = false;
+            this.txtTENKHO.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.txtTENKHO.Size = new System.Drawing.Size(135, 35);
             this.txtTENKHO.TabIndex = 3;
             // 
@@ -517,7 +542,12 @@ namespace QLTVT
             this.txtMAKHO.MenuManager = this.barManager1;
             this.txtMAKHO.MinimumSize = new System.Drawing.Size(135, 35);
             this.txtMAKHO.Name = "txtMAKHO";
+            this.txtMAKHO.Properties.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.txtMAKHO.Properties.Appearance.BorderColor = System.Drawing.Color.DarkRed;
+            this.txtMAKHO.Properties.Appearance.Options.UseBackColor = true;
+            this.txtMAKHO.Properties.Appearance.Options.UseBorderColor = true;
             this.txtMAKHO.Properties.AutoHeight = false;
+            this.txtMAKHO.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.Simple;
             this.txtMAKHO.Size = new System.Drawing.Size(135, 35);
             this.txtMAKHO.TabIndex = 1;
             // 
@@ -552,7 +582,7 @@ namespace QLTVT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 527);
+            this.ClientSize = new System.Drawing.Size(1019, 539);
             this.Controls.Add(this.panelNhapLieu);
             this.Controls.Add(this.gcKHO);
             this.Controls.Add(this.panelControl1);

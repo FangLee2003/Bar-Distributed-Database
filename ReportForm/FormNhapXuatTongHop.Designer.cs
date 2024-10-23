@@ -29,6 +29,7 @@ namespace QLTVT.ReportForm
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNhapXuatTongHop));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbCHINHANH = new System.Windows.Forms.ComboBox();
@@ -160,6 +161,7 @@ namespace QLTVT.ReportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(712, 336);
             this.Controls.Add(this.dteToiNgay);
             this.Controls.Add(this.dteTuNgay);
@@ -170,6 +172,7 @@ namespace QLTVT.ReportForm
             this.Controls.Add(this.label2);
             this.Controls.Add(this.cmbCHINHANH);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormNhapXuatTongHop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Summary Of Purchased And Sold Wines";

@@ -29,6 +29,7 @@ namespace QLTVT.SubForm
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormChuyenChiNhanh));
             this.label1 = new System.Windows.Forms.Label();
             this.cmbCHINHANH = new System.Windows.Forms.ComboBox();
             this.btnXACNHAN = new System.Windows.Forms.Button();
@@ -87,6 +88,8 @@ namespace QLTVT.SubForm
             // 
             // FormChuyenChiNhanh
             // 
+            this.Appearance.BackColor = System.Drawing.Color.Snow;
+            this.Appearance.Options.UseBackColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 271);
@@ -94,6 +97,7 @@ namespace QLTVT.SubForm
             this.Controls.Add(this.btnXACNHAN);
             this.Controls.Add(this.cmbCHINHANH);
             this.Controls.Add(this.label1);
+            this.IconOptions.Image = ((System.Drawing.Image)(resources.GetObject("FormChuyenChiNhanh.IconOptions.Image")));
             this.Name = "FormChuyenChiNhanh";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Chuyển Chi Nhánh";

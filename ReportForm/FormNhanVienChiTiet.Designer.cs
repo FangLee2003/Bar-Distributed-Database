@@ -29,6 +29,7 @@ namespace QLTVT.ReportForm
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNhanVienChiTiet));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -130,7 +131,7 @@ namespace QLTVT.ReportForm
             "NHAP",
             "XUAT"});
             this.cmbLoaiPhieu.Location = new System.Drawing.Point(445, 171);
-            this.cmbLoaiPhieu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbLoaiPhieu.Margin = new System.Windows.Forms.Padding(4);
             this.cmbLoaiPhieu.Name = "cmbLoaiPhieu";
             this.cmbLoaiPhieu.Size = new System.Drawing.Size(143, 29);
             this.cmbLoaiPhieu.TabIndex = 6;
@@ -139,55 +140,57 @@ namespace QLTVT.ReportForm
             // 
             this.txtMaNhanVien.BackColor = System.Drawing.SystemColors.Window;
             this.txtMaNhanVien.Enabled = false;
-            this.txtMaNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMaNhanVien.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMaNhanVien.Location = new System.Drawing.Point(135, 260);
-            this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtMaNhanVien.MinimumSize = new System.Drawing.Size(4, 40);
+            this.txtMaNhanVien.Margin = new System.Windows.Forms.Padding(4);
+            this.txtMaNhanVien.MinimumSize = new System.Drawing.Size(150, 35);
             this.txtMaNhanVien.Name = "txtMaNhanVien";
-            this.txtMaNhanVien.Size = new System.Drawing.Size(250, 40);
+            this.txtMaNhanVien.Size = new System.Drawing.Size(250, 35);
             this.txtMaNhanVien.TabIndex = 7;
             // 
             // txtHoVaTen
             // 
             this.txtHoVaTen.Enabled = false;
-            this.txtHoVaTen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtHoVaTen.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHoVaTen.Location = new System.Drawing.Point(510, 261);
-            this.txtHoVaTen.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtHoVaTen.MinimumSize = new System.Drawing.Size(4, 40);
+            this.txtHoVaTen.Margin = new System.Windows.Forms.Padding(4);
+            this.txtHoVaTen.MinimumSize = new System.Drawing.Size(150, 35);
             this.txtHoVaTen.Name = "txtHoVaTen";
-            this.txtHoVaTen.Size = new System.Drawing.Size(250, 40);
+            this.txtHoVaTen.Size = new System.Drawing.Size(250, 35);
             this.txtHoVaTen.TabIndex = 8;
             // 
             // dteTuNgay
             // 
             this.dteTuNgay.EditValue = null;
             this.dteTuNgay.Location = new System.Drawing.Point(135, 437);
-            this.dteTuNgay.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dteTuNgay.Margin = new System.Windows.Forms.Padding(6);
+            this.dteTuNgay.MinimumSize = new System.Drawing.Size(150, 35);
             this.dteTuNgay.Name = "dteTuNgay";
-            this.dteTuNgay.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.dteTuNgay.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dteTuNgay.Properties.Appearance.Options.UseFont = true;
             this.dteTuNgay.Properties.AutoHeight = false;
             this.dteTuNgay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dteTuNgay.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dteTuNgay.Size = new System.Drawing.Size(250, 40);
+            this.dteTuNgay.Size = new System.Drawing.Size(250, 35);
             this.dteTuNgay.TabIndex = 9;
             // 
             // dteToiNgay
             // 
             this.dteToiNgay.EditValue = null;
             this.dteToiNgay.Location = new System.Drawing.Point(510, 437);
-            this.dteToiNgay.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dteToiNgay.Margin = new System.Windows.Forms.Padding(6);
+            this.dteToiNgay.MinimumSize = new System.Drawing.Size(150, 35);
             this.dteToiNgay.Name = "dteToiNgay";
-            this.dteToiNgay.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10F);
+            this.dteToiNgay.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dteToiNgay.Properties.Appearance.Options.UseFont = true;
             this.dteToiNgay.Properties.AutoHeight = false;
             this.dteToiNgay.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
             this.dteToiNgay.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
-            this.dteToiNgay.Size = new System.Drawing.Size(250, 40);
+            this.dteToiNgay.Size = new System.Drawing.Size(250, 35);
             this.dteToiNgay.TabIndex = 10;
             // 
             // btnChonNhanVien
@@ -195,7 +198,7 @@ namespace QLTVT.ReportForm
             this.btnChonNhanVien.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChonNhanVien.ForeColor = System.Drawing.Color.DarkRed;
             this.btnChonNhanVien.Location = new System.Drawing.Point(338, 103);
-            this.btnChonNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnChonNhanVien.Margin = new System.Windows.Forms.Padding(4);
             this.btnChonNhanVien.Name = "btnChonNhanVien";
             this.btnChonNhanVien.Size = new System.Drawing.Size(250, 40);
             this.btnChonNhanVien.TabIndex = 11;
@@ -210,7 +213,7 @@ namespace QLTVT.ReportForm
             this.button1.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.DarkRed;
             this.button1.Location = new System.Drawing.Point(241, 523);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(188, 56);
             this.button1.TabIndex = 7;
@@ -225,7 +228,7 @@ namespace QLTVT.ReportForm
             this.button2.Font = new System.Drawing.Font("Arial", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Location = new System.Drawing.Point(478, 523);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(188, 56);
             this.button2.TabIndex = 8;
@@ -247,12 +250,12 @@ namespace QLTVT.ReportForm
             // txtNgaySinh
             // 
             this.txtNgaySinh.Enabled = false;
-            this.txtNgaySinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNgaySinh.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNgaySinh.Location = new System.Drawing.Point(510, 344);
-            this.txtNgaySinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtNgaySinh.MinimumSize = new System.Drawing.Size(4, 40);
+            this.txtNgaySinh.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNgaySinh.MinimumSize = new System.Drawing.Size(150, 35);
             this.txtNgaySinh.Name = "txtNgaySinh";
-            this.txtNgaySinh.Size = new System.Drawing.Size(250, 40);
+            this.txtNgaySinh.Size = new System.Drawing.Size(250, 35);
             this.txtNgaySinh.TabIndex = 15;
             // 
             // label8
@@ -269,18 +272,19 @@ namespace QLTVT.ReportForm
             // txtDiaChi
             // 
             this.txtDiaChi.Enabled = false;
-            this.txtDiaChi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDiaChi.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDiaChi.Location = new System.Drawing.Point(135, 348);
-            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtDiaChi.MinimumSize = new System.Drawing.Size(4, 40);
+            this.txtDiaChi.Margin = new System.Windows.Forms.Padding(4);
+            this.txtDiaChi.MinimumSize = new System.Drawing.Size(150, 35);
             this.txtDiaChi.Name = "txtDiaChi";
-            this.txtDiaChi.Size = new System.Drawing.Size(250, 40);
+            this.txtDiaChi.Size = new System.Drawing.Size(250, 35);
             this.txtDiaChi.TabIndex = 17;
             // 
             // FormNhanVienChiTiet
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(900, 612);
             this.Controls.Add(this.txtDiaChi);
             this.Controls.Add(this.label8);
@@ -301,7 +305,8 @@ namespace QLTVT.ReportForm
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormNhanVienChiTiet";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detail of Staff Activities";

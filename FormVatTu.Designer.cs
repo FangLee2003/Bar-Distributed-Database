@@ -247,37 +247,37 @@ namespace QLTVT
             this.barDockControlTop.Location = new System.Drawing.Point(0, 0);
             this.barDockControlTop.Manager = this.barManager1;
             this.barDockControlTop.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlTop.Size = new System.Drawing.Size(952, 30);
+            this.barDockControlTop.Size = new System.Drawing.Size(952, 47);
             this.barDockControlTop.Click += new System.EventHandler(this.barDockControlTop_Click);
             // 
             // barDockControlBottom
             // 
             this.barDockControlBottom.CausesValidation = false;
             this.barDockControlBottom.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.barDockControlBottom.Location = new System.Drawing.Point(0, 598);
+            this.barDockControlBottom.Location = new System.Drawing.Point(0, 596);
             this.barDockControlBottom.Manager = this.barManager1;
             this.barDockControlBottom.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlBottom.Size = new System.Drawing.Size(952, 20);
+            this.barDockControlBottom.Size = new System.Drawing.Size(952, 29);
             this.barDockControlBottom.Click += new System.EventHandler(this.barDockControlBottom_Click);
             // 
             // barDockControlLeft
             // 
             this.barDockControlLeft.CausesValidation = false;
             this.barDockControlLeft.Dock = System.Windows.Forms.DockStyle.Left;
-            this.barDockControlLeft.Location = new System.Drawing.Point(0, 30);
+            this.barDockControlLeft.Location = new System.Drawing.Point(0, 47);
             this.barDockControlLeft.Manager = this.barManager1;
             this.barDockControlLeft.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlLeft.Size = new System.Drawing.Size(0, 568);
+            this.barDockControlLeft.Size = new System.Drawing.Size(0, 549);
             this.barDockControlLeft.Click += new System.EventHandler(this.barDockControlLeft_Click);
             // 
             // barDockControlRight
             // 
             this.barDockControlRight.CausesValidation = false;
             this.barDockControlRight.Dock = System.Windows.Forms.DockStyle.Right;
-            this.barDockControlRight.Location = new System.Drawing.Point(952, 30);
+            this.barDockControlRight.Location = new System.Drawing.Point(952, 47);
             this.barDockControlRight.Manager = this.barManager1;
             this.barDockControlRight.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
-            this.barDockControlRight.Size = new System.Drawing.Size(0, 568);
+            this.barDockControlRight.Size = new System.Drawing.Size(0, 549);
             this.barDockControlRight.Click += new System.EventHandler(this.barDockControlRight_Click);
             // 
             // btnCHUYENCHINHANH
@@ -293,7 +293,7 @@ namespace QLTVT
             this.panelControl1.Controls.Add(this.cmbCHINHANH);
             this.panelControl1.Controls.Add(this.label1);
             this.panelControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelControl1.Location = new System.Drawing.Point(0, 30);
+            this.panelControl1.Location = new System.Drawing.Point(0, 47);
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(952, 74);
             this.panelControl1.TabIndex = 5;
@@ -358,7 +358,7 @@ namespace QLTVT
             // 
             this.gcVATTU.DataSource = this.bdsVatTu;
             this.gcVATTU.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gcVATTU.Location = new System.Drawing.Point(0, 104);
+            this.gcVATTU.Location = new System.Drawing.Point(0, 121);
             this.gcVATTU.MainView = this.gridView1;
             this.gcVATTU.MenuManager = this.barManager1;
             this.gcVATTU.Name = "gcVATTU";
@@ -460,6 +460,8 @@ namespace QLTVT
             // 
             // panelNhapLieu
             // 
+            this.panelNhapLieu.AppearanceCaption.BorderColor = System.Drawing.Color.IndianRed;
+            this.panelNhapLieu.AppearanceCaption.Options.UseBorderColor = true;
             this.panelNhapLieu.Controls.Add(sOLUONGTONLabel);
             this.panelNhapLieu.Controls.Add(this.txtSOLUONGTON);
             this.panelNhapLieu.Controls.Add(dVTLabel);
@@ -469,9 +471,9 @@ namespace QLTVT
             this.panelNhapLieu.Controls.Add(mAVTLabel);
             this.panelNhapLieu.Controls.Add(this.txtMAVT);
             this.panelNhapLieu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelNhapLieu.Location = new System.Drawing.Point(0, 445);
+            this.panelNhapLieu.Location = new System.Drawing.Point(0, 462);
             this.panelNhapLieu.Name = "panelNhapLieu";
-            this.panelNhapLieu.Size = new System.Drawing.Size(952, 153);
+            this.panelNhapLieu.Size = new System.Drawing.Size(952, 134);
             this.panelNhapLieu.TabIndex = 21;
             this.panelNhapLieu.Text = "Thông tin";
             this.panelNhapLieu.Paint += new System.Windows.Forms.PaintEventHandler(this.panelNhapLieu_Paint);
@@ -578,7 +580,7 @@ namespace QLTVT
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(952, 618);
+            this.ClientSize = new System.Drawing.Size(952, 625);
             this.Controls.Add(this.panelNhapLieu);
             this.Controls.Add(this.gcVATTU);
             this.Controls.Add(this.panelControl1);

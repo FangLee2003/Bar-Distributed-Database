@@ -115,7 +115,7 @@ namespace QLTVT
             // 
             // svgImageBox1
             // 
-            this.svgImageBox1.Location = new System.Drawing.Point(290, -28);
+            this.svgImageBox1.Location = new System.Drawing.Point(290, -32);
             this.svgImageBox1.Name = "svgImageBox1";
             this.svgImageBox1.Size = new System.Drawing.Size(316, 312);
             this.svgImageBox1.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("svgImageBox1.SvgImage")));
@@ -130,7 +130,7 @@ namespace QLTVT
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.button1.ForeColor = System.Drawing.Color.DarkRed;
-            this.button1.Location = new System.Drawing.Point(339, 227);
+            this.button1.Location = new System.Drawing.Point(339, 221);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(227, 40);
             this.button1.TabIndex = 7;
@@ -144,7 +144,7 @@ namespace QLTVT
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Tahoma", 8F, System.Drawing.FontStyle.Bold);
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(44, 227);
+            this.button2.Location = new System.Drawing.Point(44, 221);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 40);
             this.button2.TabIndex = 6;
@@ -154,9 +154,11 @@ namespace QLTVT
             // 
             // FormDangNhap
             // 
-            this.Appearance.BackColor = System.Drawing.SystemColors.MenuBar;
+            this.Appearance.BackColor = System.Drawing.Color.Snow;
+            this.Appearance.BorderColor = System.Drawing.Color.Transparent;
             this.Appearance.ForeColor = System.Drawing.Color.Black;
             this.Appearance.Options.UseBackColor = true;
+            this.Appearance.Options.UseBorderColor = true;
             this.Appearance.Options.UseForeColor = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;

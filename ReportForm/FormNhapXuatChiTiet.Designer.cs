@@ -29,6 +29,7 @@ namespace QLTVT.ReportForm
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormNhapXuatChiTiet));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.cmbLoaiPhieu = new System.Windows.Forms.ComboBox();
@@ -47,11 +48,11 @@ namespace QLTVT.ReportForm
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkRed;
             this.label1.Location = new System.Drawing.Point(45, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(585, 38);
+            this.label1.Size = new System.Drawing.Size(557, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "Detail Of Purchased And Sold Wines";
             // 
@@ -163,6 +164,7 @@ namespace QLTVT.ReportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(676, 317);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -174,6 +176,7 @@ namespace QLTVT.ReportForm
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormNhapXuatChiTiet";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Detail Of Purchased And Sold Wines";

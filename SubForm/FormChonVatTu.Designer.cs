@@ -30,6 +30,7 @@ namespace QLTVT.SubForm
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormChonVatTu));
             this.dataSet = new QLTVT.DataSet();
             this.bdsVatTu = new System.Windows.Forms.BindingSource(this.components);
             this.vattuTableAdapter = new QLTVT.DataSetTableAdapters.VattuTableAdapter();
@@ -204,10 +205,12 @@ namespace QLTVT.SubForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Snow;
             this.ClientSize = new System.Drawing.Size(791, 344);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.vattuGridControl);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormChonVatTu";
             this.Text = "FormChonVatTu";
             this.Load += new System.EventHandler(this.FormChonVatTu_Load);

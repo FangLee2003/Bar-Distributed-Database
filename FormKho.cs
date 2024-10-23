@@ -533,5 +533,10 @@ namespace QLTVT
         {
 
         }
+
+        private void txtDIACHI_EditValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
