@@ -16,7 +16,7 @@ namespace QLTVT
     * thì các biến nằm trong form đó mới hình thành, dù biến đó có tầm hoạt 
     * động toàn dự án nhưng khi cái form nào đóng lại thì các biến cũng biến mất
     * Do đó, form khác sẽ không hiểu các biến của form đã đóng nữa. Để phục vụ nhu cầu
-    * xuyên suốt thì phải khai báo tại đây
+    * xuyên suốt th ì phải khai báo tại đây
     * 
     * Data Source=DELL: tên server gốc
     * Initial Catalog=QLVT_DATHANG: tên cơ sở dữ liệu
@@ -33,7 +33,7 @@ namespace QLTVT
          **********************************************/
         public static SqlConnection conn = new SqlConnection();//conn
         public static String connstr = "";//connstr
-        public static String connstrPublisher = "Data Source=FANGLEELAPTOP;Initial Catalog=QLVT_DATHANG;Integrated Security=true";
+        public static String connstrPublisher = "Data Source=DESKTOP-BDVULVU\\SERVER1;Initial Catalog=QLVT_DATHANG;Integrated Security=true";
         public static SqlDataReader myReader;//myReader
 
 
@@ -76,7 +76,7 @@ namespace QLTVT
         public static String database = "QLVT_DATHANG";
         
         public static String remoteLogin = "HTKN";//remotelogin
-        public static String remotePassword = "123456";//remotepassword
+        public static String remotePassword = "admin";//remotepassword
 
         public static String currentLogin = "";//mloginDN
         public static String currentPassword = "";//passwordDN
