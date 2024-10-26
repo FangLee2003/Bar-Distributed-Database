@@ -772,13 +772,13 @@ namespace QLTVT
             String maChiNhanhMoi = "";
             int viTriHienTai = bdsNhanVien.Position;
             String maNhanVien = ((DataRowView)bdsNhanVien[viTriHienTai])["MANV"].ToString();
-
-            if (chiNhanh.Contains("1"))
+            Console.WriteLine(chiNhanh);
+            if (chiNhanh.Contains("2"))
             {
                 maChiNhanhHienTai = "CN2";
                 maChiNhanhMoi = "CN1";
             }
-            else if( chiNhanh.Contains("2"))
+            else if( chiNhanh.Contains("3"))
             {
                 maChiNhanhHienTai = "CN1";
                 maChiNhanhMoi = "CN2";
@@ -815,8 +815,10 @@ namespace QLTVT
 
                 if (Program.myReader == null)
                 {
+                    //Program.myReader.Close();
                     return;/*khong co ket qua tra ve thi ket thuc luon*/
-                }
+                };
+                Program.myReader.Close();
             }
             catch (Exception ex)
             {

@@ -132,6 +132,29 @@
   <metadata name="barManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnGHI.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EQAACxEBf2RfkQAAA7BJREFUOE9lkltMHGUUx896aYGwuMDSnb3QXSRsY7xEfTU+aMT4iG8agw8+WbVG
+        LbbW6gPrg4lBTItBmta2tFLKpYUCIpcCIguUS1uWZZfbXoaZWXZ3LjszLF22ZGeOn0mND37JL1++k5xf
+        cv7fAVjWAFY1OIcIbsLrhIcEJGiP7n9p4XX45zgGVYNrWAH7DZG8VohgTQMe8bFnEAveQswjjXmk4X/8
+        ImOB4YU2qJjVwNkrGRxtSYB3ZR0+Sjx8ws3oo1Qwl3g2lAvH1V06raZplcCLCn1xOkpHGD5yOSjETbek
+        /nd8WGC5mgJnl2QAWyAH1qX9Itty7kHZTBbd97JI8zKKQgolScYQk8TSb6awzRvBzpUEGttieLg90Q+s
+        AmQuAPviPthns4X2hSxvnkjjkZndHCfImiLJmiqrGs3ymulov9bx16bWtyHlCi8zaD0f3XPW+4ptHj+A
+        bXoPbJMZo21qVywbUdE5pmiTQRbXN1gMbnDoX2OxsfsuLvpovWmG042/0mhtDqUcp+afor5eBLCO74Jt
+        ImOkRhXRMqqgZSytuQZ4rOrmsKqTQ3c7gy93cfhcawTLL0b1Q0RgObOuWE/Om6hTC0QwpIJtaMdo+V0S
+        qQERTbcELb9XxPweQjePedcTeOBKDA9c4rDoPK1bWsJ4qHFVsZ6YNVEn5wCovhTYB1JGSw8vlt1MYvW4
+        pH0wI2PtlIS1fwpYO8bje8NxfP+PGL52ndbNTZto+SGg2I5Pm6gvZwEsNwSo6heN5o646OiKY0jKaPpe
+        Fnd3HuCOvIOyKGMyLqC4nUDvMq3bz6xh2fd+paJuykR9MU0EHUlw9wjG0t9i4uF2DkPJHZJ+GhO8gttx
+        CRk2ieFoDKMRFr33Q7qjMYDm75aUyuNE8LmXCK6wUHWNKSxt5YTyqxwGGCkn8Cmd4Xg9uhXXQxFOX99k
+        9NAmrU8srGv2BiLwLKWe/vS2ifpkgmTQmwH3JBaVnF1NO5pWcI2TUEoKyLEJZJlt3KI5jIQZ3ArT6L23
+        gXbPPJae8GYqPYFi62kfWaSb+/C8H58019+ZL6u/k20YDMp9k361c9yvdo0vqx23feq1kftq18ii6mmf
+        k811E1nzseG7RxrYg/ZvA+Qb5xAq/AiVn/UfLDjtLYGXGk3wxo/FUN1UDG8+ovosgdRe/Km44Ohgiatu
+        KM/VqoL1gkwymEdw+RCcH/dC/ldTAK82g6HmZ4C3z/1HTQs8XtME8Eoz5H84COXH+sB5SQHqggJ/AzMd
+        dcVIarvwAAAAAElFTkSuQmCC
+</value>
+  </data>
   <assembly alias="DevExpress.Data.v24.1" name="DevExpress.Data.v24.1, Version=24.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="btnHOANTAC.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v24.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -191,7 +214,6 @@
   <metadata name="dataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>184, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIACzNgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAFv

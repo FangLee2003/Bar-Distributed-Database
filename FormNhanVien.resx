@@ -117,9 +117,56 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="mANVLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="hOLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="tENLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="mACNLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="dIACHILabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="lUONGLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="nGAYSINHLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <metadata name="trangThaiXoaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
   <metadata name="barManager1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnGHI.ImageOptions.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAOwSURBVDhPZZJbTBxlFMfPemmBsLjA0p290F0kbGO8RH01
+        PmjE+IhvGoMPPlm1Ri221uoD64OJQUyLQZrWtrRSyqWFAiKXAiILlEtblmWX216GmVl2dy47MyxdtmRn
+        jp9JjQ9+yS9fvpOcX3L+3wFY1gBWNTiHCG7C64SHBCRoj+5/aeF1+Oc4BlWDa1gB+w2RvFaIYE0DHvGx
+        ZxAL3kLMI415pOF//CJjgeGFNqiY1cDZKxkcbUmAd2UdPko8fMLN6KNUMJd4NpQLx9VdOq2maZXAiwp9
+        cTpKRxg+cjkoxE23pP53fFhguZoCZ5dkAFsgB9al/SLbcu5B2UwW3feySPMyikIKJUnGEJPE0m+msM0b
+        wc6VBBrbYni4PdEPrAJkLgD74j7YZ7OF9oUsb55I45GZ3RwnyJoiyZoqqxrN8prpaL/W8dem1rch5Qov
+        M2g9H91z1vuKbR4/gG16D2yTGaNtalcsG1HROaZok0EW1zdYDG5w6F9jsbH7Li76aL1phtONv9JobQ6l
+        HKfmn6K+XgSwju+CbSJjpEYV0TKqoGUsrbkGeKzq5rCqk0N3O4Mvd3H4XGsEyy9G9UNEYDmzrlhPzpuo
+        UwtEMKSCbWjHaPldEqkBEU23BC2/V8T8HkI3j3nXE3jgSgwPXOKw6DytW1rCeKhxVbGemDVRJ+cAqL4U
+        2AdSRksPL5bdTGL1uKR9MCNj7ZSEtX8KWDvG43vDcXz/jxi+dp3WzU2baPkhoNiOT5uoL2cBLDcEqOoX
+        jeaOuOjoimNIymj6XhZ3dx7gjryDsihjMi6guJ1A7zKt28+sYdn3fqWibspEfTFNBB1JcPcIxtLfYuLh
+        dg5DyR2SfhoTvILbcQkZNonhaAyjERa990O6ozGA5u+WlMrjRPC5lwiusFB1jSksbeWE8qscBhgpJ/Ap
+        neF4PboV10MRTl/fZPTQJq1PLKxr9gYi8Cylnv70ton6ZIJk0JsB9yQWlZxdTTuaVnCNk1BKCsixCWSZ
+        bdyiOYyEGdwK0+i9t4F2zzyWnvBmKj2BYutpH1mkm/vwvB+fNNffmS+rv5NtGAzKfZN+tXPcr3aNL6sd
+        t33qtZH7atfIouppn5PNdRNZ87Hhu0ca2IP2bwPkG+cQKvwIlZ/1Hyw47S2BlxpN8MaPxVDdVAxvPqL6
+        LIHUXvypuODoYImrbijP1aqC9YJMMphHcPkQnB/3Qv5XUwCvNoOh5meAt8/9R00LPF7TBPBKM+R/OAjl
+        x/rAeUkB6oICfwMzHXXFSGq78AAAAABJRU5ErkJggg==
+</value>
+  </data>
   <assembly alias="DevExpress.Data.v24.1" name="DevExpress.Data.v24.1, Version=24.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
   <data name="btnHOANTAC.ImageOptions.SvgImage" type="DevExpress.Utils.Svg.SvgImage, DevExpress.Data.v24.1" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -173,37 +220,12 @@
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>85</value>
   </metadata>
-  <metadata name="trangThaiXoaLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
   <metadata name="bdsNhanVien.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>303, 17</value>
   </metadata>
   <metadata name="dataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>184, 17</value>
   </metadata>
-  <metadata name="nGAYSINHLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="lUONGLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="dIACHILabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="mACNLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="tENLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="hOLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <metadata name="mANVLabel.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>False</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAAAAAAAEAIACzNgAAFgAAAIlQTkcNChoKAAAADUlIRFIAAAEAAAABAAgGAAAAXHKoZgAAAAFv
